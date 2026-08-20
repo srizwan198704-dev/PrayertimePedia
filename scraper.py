@@ -9,140 +9,164 @@ URL = "https://muslimbangla.com/world/BD/prayer-times-Dhaka"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 BN_TO_EN = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
-
-def to_en(bn_str):
-    if not bn_str: return ""
-    return bn_str.translate(BN_TO_EN)
+def to_en(s): return s.translate(BN_TO_EN) if s else ""
 
 def extract_section(soup, section_title_keyword):
-    """
-    section_title_keyword: যেমন 'ওয়াক্তের সময়সূচী'
-    এর পর থেকে পরবর্তী h2 পর্যন্ত সব h3/h4 ট্যাগ থেকে ডাটা নেবে
-    """
     result = {}
-    # h2 খুঁজে বের করা যেখানে section title আছে
     h2 = soup.find(lambda tag: tag.name == "h2" and section_title_keyword in tag.get_text())
     if not h2:
         return result
-    
-    # h2 এর পর থেকে next h2 আসার আগ পর্যন্ত
     for sibling in h2.find_all_next():
         if sibling.name == "h2":
             break
         if sibling.name in ["h3", "h4"]:
             name_bn = sibling.get_text(strip=True)
-            # টাইমটা সাধারণত sibling এর parent বা পরের tag এ থাকে
-            # পেজের স্ট্রাকচার: <h3>ফজর</h3> \n ০৪:১৬ - ০৫:৩৫
+            if not name_bn or len(name_bn) > 30:
+                continue
             time_bn = ""
-            # 1. next sibling text
-            nxt = sibling.next_sibling
-            # next_sibling অনেক সময় \n হয়, তাই লুপ
-            for _ in range(5):
-                if nxt is None:
-                    break
-                txt = str(nxt).strip() if isinstance(nxt, str) else nxt.get_text(strip=True) if hasattr(nxt, 'get_text') else ""
-                if re.search(r"[০-৯:]", txt):
-                    time_bn = txt
-                    break
-                nxt = nxt.next_sibling if hasattr(nxt, 'next_sibling') else None
-            
-            # 2. fallback: parent text থেকে
-            if not time_bn:
-                parent_text = sibling.parent.get_text(" ", strip=True)
-                m = re.search(r"[০-৯]{2}:[০-৯]{2}(?:\s*-\s*[০-৯]{2}:[০-৯]{2})?", parent_text)
-                if m:
-                    time_bn = m.group(0)
-            
-            # 3. আরেকটা fallback: h3 এর পরের div/string
-            if not time_bn:
-                next_el = sibling.find_next(string=lambda s: re.search(r"[০-৯]{2}:[০-৯]{2}", s))
-                if next_el:
-                    time_bn = next_el.strip()
-
-            if time_bn:
-                # সাহরী এর ক্ষেত্রে একটাই টাইম
-                clean_bn = re.search(r"[০-৯]{1,2}:[০-৯]{2}(?:\s*-\s*[০-৯]{1,2}:[০-৯]{2})?", time_bn)
-                if clean_bn:
-                    time_bn = clean_bn.group(0)
-
+            parent_text = sibling.parent.get_text(" ", strip=True) if sibling.parent else ""
+            m = re.search(r"[০-৯]{1,2}:[০-৯]{2}(?:\s*-\s*[০-৯]{1,2}:[০-৯]{2})?", parent_text)
+            if m:
+                time_bn = m.group(0)
+            if time_bn and name_bn not in result:
+                # start/end আলাদা করা
+                en_time = to_en(time_bn)
+                start, end = "", ""
+                if "-" in en_time:
+                    parts = en_time.split("-")
+                    start = parts[0].strip()
+                    end = parts[1].strip()
+                else:
+                    start = en_time.strip()
+                
                 result[name_bn] = {
-                    "bn": time_bn,
-                    "en": to_en(time_bn)
+                    "label_bn": name_bn,
+                    "time_bn": time_bn,
+                    "time_en": en_time,
+                    "start": start,
+                    "end": end
                 }
     return result
-
 
 def scrape():
     res = requests.get(URL, headers=HEADERS, timeout=20)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, "lxml")
-
-    # ১. তারিখ - পেজের প্রথম h2 এর পরের text
-    date_text = ""
-    try:
-        # "৬ রবিউল আউয়াল..." এই লাইনটা h2 এর পরেই থাকে
-        first_h2 = soup.find("h2")
-        if first_h2:
-            # h2 এর আগের div বা h2 এর parent এর আগের sibling
-            # সহজ উপায়: পুরো text থেকে hijri line খোঁজা
-            full_text_lines = soup.get_text("\n").split("\n")
-            for line in full_text_lines:
+    
+    # --- ১. তারিখ - Professional Parsing ---
+    date_full_bn = ""
+    h2_date = soup.find(lambda tag: tag.name == "h2" and "নামাজের সময়সূচী" in tag.get_text())
+    if h2_date:
+        for elem in h2_date.next_elements:
+            if elem.name == "h2":
+                break
+            txt = elem.strip() if isinstance(elem, str) else ""
+            if not txt and hasattr(elem, 'get_text'):
+                if elem.name in ['div', 'p', 'span']:
+                    t = elem.get_text(strip=True)
+                    if "হিজরি" in t and len(t) < 200:
+                        txt = t
+            if "হিজরি" in txt and "বঙ্গাব্দ" in txt:
+                date_full_bn = txt
+                break
+        if not date_full_bn:
+            for line in soup.get_text("\n").split("\n"):
                 if "হিজরি" in line and "বঙ্গাব্দ" in line:
-                    date_text = line.strip()
+                    date_full_bn = line.strip()
                     break
-    except:
-        pass
 
-    # আলাদা করে হিজরি, বাংলা, ইংরেজি ভাগ করা
-    hijri = ""
-    bangla_date = ""
-    if "•" in date_text:
-        parts = date_text.split("•")
-        hijri = parts[0].strip()
-        bangla_date = parts[1].strip() if len(parts) > 1 else ""
+    hijri_bn = ""
+    bengali_bn = ""
+    weekday_bn = ""
+    if "•" in date_full_bn:
+        parts = [p.strip() for p in date_full_bn.split("•")]
+        hijri_bn = parts[0] if len(parts) > 0 else ""
+        rest = parts[1] if len(parts) > 1 else ""
+        # rest = "বৃহস্পতিবার, ৫ ভাদ্র, ১৪৩৩ বঙ্গাব্দ"
+        if "," in rest:
+            weekday_bn = rest.split(",")[0].strip()
+            bengali_bn = rest
+        else:
+            bengali_bn = rest
 
-    # ২, ৩, ৪ - তিনটা সেকশন
-    waqt = extract_section(soup, "ওয়াক্তের সময়সূচী")
-    forbidden = extract_section(soup, "নামাজের নিষিদ্ধ সময়সূচী")
-    nafl = extract_section(soup, "নফল নামাজের সময়সূচী")
-
-    # নফলে একই নাম দুবার আসে, তাই শেষেরটা থাকবে - আমরা dict কে merge করেছি, তাই unique থাকবে
-
+    # --- Final Professional JSON Structure ---
     final_json = {
         "meta": {
-            "location": "ঢাকা, বাংলাদেশ",
-            "location_en": "Dhaka, Bangladesh",
-            "source_url": URL,
-            "scraped_at": datetime.now().isoformat(),
-            "scraped_at_bst": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "location": {
+                "city": "Dhaka",
+                "city_bn": "ঢাকা",
+                "country": "Bangladesh",
+                "country_bn": "বাংলাদেশ",
+                "timezone": "Asia/Dhaka"
+            },
+            "source": {
+                "name": "Muslim Bangla",
+                "url": URL
+            },
+            "scraped_at": {
+                "utc": datetime.utcnow().isoformat() + "Z",
+                "bst": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "timestamp": int(datetime.now().timestamp())
+            }
         },
-        "১_তারিখ": {
-            "full_bn": date_text,
-            "hijri": hijri,
-            "bengali": bangla_date,
-            "hijri_en": to_en(hijri),
-            "bengali_en": to_en(bangla_date)
+        "date": {
+            "gregorian": {
+                "date": datetime.now().strftime("%Y-%m-%d"),
+                "weekday_en": datetime.now().strftime("%A"),
+                "weekday_bn": weekday_bn
+            },
+            "hijri": {
+                "full_bn": hijri_bn,
+                "full_en": to_en(hijri_bn),
+                "day": to_en(hijri_bn.split()[0]) if hijri_bn else "",
+                "month_bn": hijri_bn.split()[1] if len(hijri_bn.split()) > 1 else "",
+                "year": to_en(hijri_bn.split(",")[0].split()[-1]) if "," in hijri_bn else ""
+            },
+            "bengali": {
+                "full_bn": bengali_bn,
+                "full_en": to_en(bengali_bn),
+                "weekday_bn": weekday_bn
+            },
+            "combined_bn": date_full_bn,
+            "combined_en": to_en(date_full_bn)
         },
-        "২_ওয়াক্তের_সময়সূচী": waqt,
-        "৩_নামাজের_নিষিদ্ধ_সময়সূচী": forbidden,
-        "৪_নফল_নামাজের_সময়সূচী": nafl
+        "prayer_times": extract_section(soup, "ওয়াক্তের সময়সূচী"),
+        "forbidden_times": extract_section(soup, "নামাজের নিষিদ্ধ সময়সূচী"),
+        "nafl_times": extract_section(soup, "নফল নামাজের সময়সূচী")
     }
 
-    return final_json
+    # prayer_times কে আরও professional flat key তে convert (fajr, dhuhr etc)
+    mapping = {"ফজর": "fajr", "যুহর": "dhuhr", "আসর": "asr", "মাগরিব": "maghrib", "ইশা": "isha",
+               "সূর্যোদয়": "sunrise", "দুপুর": "noon", "সূর্যাস্ত": "sunset",
+               "তাহাজ্জুদ": "tahajjud", "ইশরাক": "ishraq", "চাশত": "chasht", "সাহরী": "sehri_end"}
 
+    def professionalize(section_dict):
+        pro = {}
+        for bn_label, obj in section_dict.items():
+            key = "unknown"
+            for k_bn, k_en in mapping.items():
+                if k_bn in bn_label:
+                    key = k_en
+                    break
+            if key == "unknown":
+                key = bn_label # fallback
+            pro[key] = obj
+        return pro
+
+    final_json["prayer_times"] = professionalize(final_json["prayer_times"])
+    final_json["forbidden_times"] = professionalize(final_json["forbidden_times"])
+    final_json["nafl_times"] = professionalize(final_json["nafl_times"])
+
+    # Special handling for sehri which label is "সাহরী(শেষ)"
+    if "unknown" in final_json["nafl_times"]:
+        # try to fix
+        pass
+
+    return final_json
 
 if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
     data = scrape()
-    # কনসোলে দেখাও
     print(json.dumps(data, ensure_ascii=False, indent=2))
-
-    # ফাইলে সেভ
     with open("data/dhaka.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    # API friendly flat version ও সেভ করলাম
-    with open("data/dhaka_flat.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print("\n✅ data/dhaka.json তৈরি হয়েছে")
