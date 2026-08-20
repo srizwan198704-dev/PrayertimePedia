@@ -1,44 +1,86 @@
 {
   "meta": {
-    "location": {
-      "city": "Dhaka",
-      "city_bn": "ঢাকা",
-      "country": "Bangladesh",
-      "country_bn": "বাংলাদেশ",
-      "timezone": "Asia/Dhaka"
-    },
-    "source": {
-      "name": "Muslim Bangla",
-      "url": "https://muslimbangla.com/world/BD/prayer-times-Dhaka"
-    },
-    "scraped_at": {
-      "utc": "2026-08-20T02:32:38.272589Z",
-      "bst": "2026-08-20 02:32:38",
-      "timestamp": 1787193158
-    }
+    "location": "Dhaka, Bangladesh",
+    "source_url": "https://muslimbangla.com/world/BD/prayer-times-Dhaka",
+    "scraped_at_utc": "2026-08-20T02:37:42.951325Z",
+    "scraped_at_bst": "2026-08-20 02:37:42"
   },
   "date": {
-    "gregorian": {
-      "date": "2026-08-20",
-      "weekday_en": "Thursday",
-      "weekday_bn": ""
-    },
+    "full_bn": "৪৮\nহিজরি\n•\nবৃহস্পতিবার, ৫ ভাদ্র, ১৪৩৩ বঙ্গাব্দ",
+    "full_en": "48\nহিজরি\n•\nবৃহস্পতিবার, 5 ভাদ্র, 1433 বঙ্গাব্দ",
     "hijri": {
-      "full_bn": "",
-      "full_en": "",
-      "day": "",
-      "month_bn": "",
-      "year": ""
+      "bn": "৪৮\nহিজরি",
+      "en": "48\nহিজরি"
     },
     "bengali": {
-      "full_bn": "",
-      "full_en": "",
-      "weekday_bn": ""
-    },
-    "combined_bn": "",
-    "combined_en": ""
+      "bn": "বৃহস্পতিবার, ৫ ভাদ্র, ১৪৩৩ বঙ্গাব্দ",
+      "en": "বৃহস্পতিবার, 5 ভাদ্র, 1433 বঙ্গাব্দ"
+    }
   },
-  "prayer_times": {},
-  "forbidden_times": {},
-  "nafl_times": {}
+  "waqt": {
+    "ফজর": {
+      "bn": "০৪:১৬ - ০৫:৩৫",
+      "en": "04:16 - 05:35",
+      "start": "04:16",
+      "end": "05:35"
+    },
+    "আসর": {
+      "bn": "০৪:৩৬ - ০৬:২৮",
+      "en": "04:36 - 06:28",
+      "start": "04:36",
+      "end": "06:28"
+    },
+    "মাগরিব": {
+      "bn": "০৬:২৯ - ০৭:৪৬",
+      "en": "06:29 - 07:46",
+      "start": "06:29",
+      "end": "07:46"
+    },
+    "ইশা": {
+      "bn": "০৭:৪৭ - ০৪:১৬",
+      "en": "07:47 - 04:16",
+      "start": "07:47",
+      "end": "04:16"
+    }
+  },
+  "forbidden": {
+    "সূর্যোদয়": {
+      "bn": "০৫:৩৬ - ০৫:৫১",
+      "en": "05:36 - 05:51",
+      "start": "05:36",
+      "end": "05:51"
+    },
+    "দুপুর": {
+      "bn": "১১:৫৭ - ১২:০২",
+      "en": "11:57 - 12:02",
+      "start": "11:57",
+      "end": "12:02"
+    },
+    "সূর্যাস্ত": {
+      "bn": "০৬:১৩ - ০৬:২৮",
+      "en": "06:13 - 06:28",
+      "start": "06:13",
+      "end": "06:28"
+    }
+  },
+  "nafl": {
+    "তাহাজ্জুদ": {
+      "bn": "০৪:১৫",
+      "en": "04:15",
+      "start": "04:15",
+      "end": ""
+    },
+    "ইশরাক": {
+      "bn": "০৫:৫২ - ১১:৫৬",
+      "en": "05:52 - 11:56",
+      "start": "05:52",
+      "end": "11:56"
+    },
+    "চাশত": {
+      "bn": "০৫:৫২ - ১১:৫৬",
+      "en": "05:52 - 11:56",
+      "start": "05:52",
+      "end": "11:56"
+    }
+  }
 }
