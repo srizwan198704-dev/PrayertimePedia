@@ -7,8 +7,8 @@
       "country_bn": "বাংলাদেশ",
       "timezone": "Asia/Dhaka"
     },
-    "source_url": "https://muslimbangla.com/world/BD/prayer-times-Dhaka",
-    "scraped_at": "2026-08-20T02:46:15.617188"
+    "source_url": "https://muslimbangla.com/world/BD/prayer-times-Narayanganj",
+    "scraped_at": "2026-08-20T02:55:22.388466"
   },
   "date": {
     "full": {
@@ -27,61 +27,54 @@
   "prayer_times": {
     "fajr": {
       "label_bn": "ফজর",
-      "time_bn": "০৪:১৬ - ০৫:৩৫",
-      "time_en": "04:16 - 05:35",
+      "time_bn": "০৪:১৬ - ০৫:৩৪",
+      "time_en": "04:16 - 05:34",
       "start": "04:16",
-      "end": "05:35"
-    },
-    "dhuhr": {
-      "label_bn": "যুহর",
-      "time_bn": "১২:০৩ - ০৪:৩৫",
-      "time_en": "12:03 - 04:35",
-      "start": "12:03",
-      "end": "04:35"
+      "end": "05:34"
     },
     "asr": {
       "label_bn": "আসর",
-      "time_bn": "০৪:৩৬ - ০৬:২৮",
-      "time_en": "04:36 - 06:28",
-      "start": "04:36",
-      "end": "06:28"
+      "time_bn": "০৪:৩৫ - ০৬:২৭",
+      "time_en": "04:35 - 06:27",
+      "start": "04:35",
+      "end": "06:27"
     },
     "maghrib": {
       "label_bn": "মাগরিব",
-      "time_bn": "০৬:২৯ - ০৭:৪৬",
-      "time_en": "06:29 - 07:46",
-      "start": "06:29",
-      "end": "07:46"
+      "time_bn": "০৬:২৮ - ০৭:৪৫",
+      "time_en": "06:28 - 07:45",
+      "start": "06:28",
+      "end": "07:45"
     },
     "isha": {
       "label_bn": "ইশা",
-      "time_bn": "০৭:৪৭ - ০৪:১৬",
-      "time_en": "07:47 - 04:16",
-      "start": "07:47",
+      "time_bn": "০৭:৪৬ - ০৪:১৬",
+      "time_en": "07:46 - 04:16",
+      "start": "07:46",
       "end": "04:16"
     }
   },
   "forbidden_times": {
     "sunrise": {
       "label_bn": "সূর্যোদয়",
-      "time_bn": "০৫:৩৬ - ০৫:৫১",
-      "time_en": "05:36 - 05:51",
-      "start": "05:36",
-      "end": "05:51"
+      "time_bn": "০৫:৩৫ - ০৫:৫০",
+      "time_en": "05:35 - 05:50",
+      "start": "05:35",
+      "end": "05:50"
     },
     "noon": {
       "label_bn": "দুপুর",
-      "time_bn": "১১:৫৭ - ১২:০২",
-      "time_en": "11:57 - 12:02",
-      "start": "11:57",
-      "end": "12:02"
+      "time_bn": "১১:৫৬ - ১২:০১",
+      "time_en": "11:56 - 12:01",
+      "start": "11:56",
+      "end": "12:01"
     },
     "sunset": {
       "label_bn": "সূর্যাস্ত",
-      "time_bn": "০৬:১৩ - ০৬:২৮",
-      "time_en": "06:13 - 06:28",
-      "start": "06:13",
-      "end": "06:28"
+      "time_bn": "০৬:১২ - ০৬:২৭",
+      "time_en": "06:12 - 06:27",
+      "start": "06:12",
+      "end": "06:27"
     }
   },
   "nafl_times": {
@@ -94,17 +87,17 @@
     },
     "ishraq": {
       "label_bn": "ইশরাক",
-      "time_bn": "০৫:৫২ - ১১:৫৬",
-      "time_en": "05:52 - 11:56",
-      "start": "05:52",
-      "end": "11:56"
+      "time_bn": "০৫:৫১ - ১১:৫৫",
+      "time_en": "05:51 - 11:55",
+      "start": "05:51",
+      "end": "11:55"
     },
     "chasht": {
       "label_bn": "চাশত",
-      "time_bn": "০৫:৫২ - ১১:৫৬",
-      "time_en": "05:52 - 11:56",
-      "start": "05:52",
-      "end": "11:56"
+      "time_bn": "০৫:৫১ - ১১:৫৫",
+      "time_en": "05:51 - 11:55",
+      "start": "05:51",
+      "end": "11:55"
     }
   }
 }
