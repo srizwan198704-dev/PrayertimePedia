@@ -1,0 +1,56 @@
+name: BD Prayer Times Daily Update
+
+on:
+  schedule:
+    # প্রতিদিন সন্ধ্যা ৭টায় BD Time = UTC 13:00 (Asia/Dhaka is UTC+6)
+    - cron: '0 13 * * *'
+  workflow_dispatch: # Manual run button
+
+jobs:
+  update-prayer-times:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run BD Scraper
+        run: |
+          python scraperbd.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Purge ENTIRE BD Folder from jsDelivr CDN
+        if: always()
+        run: |
+          echo "🚀 Starting full BD folder purge..."
+          count=0
+          for file in BD/*.json; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              echo "Purging $filename..."
+              
+              # 2 টা format ই purge করবে যাতে 100% clear হয়
+              curl -s "https://purge.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia@main/BD/$filename" > /dev/null
+              curl -s "https://purge.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia/BD/$filename" > /dev/null
+              
+              count=$((count+1))
+              # Rate limit avoid করতে ছোট delay
+              sleep 0.2
+            fi
+          done
+          echo "✅ Purged $count files"
+          echo "🔥 CDN Updated: https://cdn.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia@main/BD/"
