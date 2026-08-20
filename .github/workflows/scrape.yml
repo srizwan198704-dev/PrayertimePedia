@@ -1,35 +1,44 @@
-name: Update Prayer Times - Dhaka
+name: Update Prayer Times (All 234 Countries)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # প্রতি ঘণ্টায় ১ বার (UTC)
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # প্রতি ৬ ঘণ্টা পর পর
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [ main ]
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install -r requirements.txt
-
-      - name: Run scraper
-        run: python scraper.py
-
-      - name: Commit changes
+      - name: Install dependencies
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git diff --staged --quiet || git commit -m "auto: update Dhaka prayer times $(date -u +'%Y-%m-%d %H:%M UTC')"
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run bulk scraper (All cities from country.json)
+        run: |
+          python scraper_bulk_all_cities.py
+
+      - name: Commit and push updated JSONs
+        run: |
+          git config --global user.name "Prayer Times Bot"
+          git config --global user.email "bot@muslimbangla.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "🕌 Auto update prayer times for all cities - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Summary
+        run: |
+          echo "✅ Updated $(find data -name '*.json' | wc -l) city files"
+          ls -R data | head -n 100
