@@ -1,0 +1,35 @@
+name: Update Prayer Times - Dhaka
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # প্রতি ঘণ্টায় ১ বার (UTC)
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "auto: update Dhaka prayer times $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
