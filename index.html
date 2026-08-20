@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ইসলামী বিশ্বকোষ ও আল হাদিস S2 - Masjid Design</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Anek+Bangla:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FDFBF6;--green:#0E3B2E;--green2:#153E32;--gold:#C9A227;--goldL:#FFF6C8;--card:#fff;--line:#EFE5C8;--muted:#9B9B93;--text:#1D1D1B;--r:24px;--shadow:0 12px 36px rgba(14,59,46,.08)}
+*{box-sizing:border-box}body{margin:0;font-family:"Hind Siliguri","Anek Bangla",sans-serif;background:var(--bg);color:var(--text);padding-bottom:130px;-webkit-font-smoothing:antialiased}
+.hero{background:linear-gradient(180deg,#102E26 0%,#0A201A 100%);color:#fff;border-radius:0 0 36px 36px;overflow:hidden;position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80"><path d="M0 60 Q50 20 100 60 T200 60 L200 80 L0 80 Z" fill="rgba(201,162,39,.08)"/></svg>') repeat-x bottom;background-size:200px 80px;opacity:.6}
+.hero-inner{max-width:1140px;margin:0 auto;padding:14px 16px 20px;position:relative;z-index:2}
+.top{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;gap:10px;align-items:center}
+.mark{width:40px;height:40px;border-radius:14px;background:linear-gradient(135deg,#D4A017,#FFF1A0);display:grid;place-items:center;color:var(--green);font-weight:900;font-size:18px}
+.brand b{font-family:"Anek Bangla";font-size:15px;line-height:1.1}.brand small{display:block;font-size:11px;opacity:.7;font-weight:500}
+.city{padding:7px 13px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);cursor:pointer;display:flex;gap:6px;align-items:center;font-size:13px}
+.center{text-align:center;margin-top:18px}
+.hijri{font-size:15px;font-weight:700;color:var(--goldL)}.beng{font-size:12px;opacity:.8;margin-top:4px}
+.mosque-line{margin:18px auto 0;max-width:520px;height:56px;display:flex;align-items:end;justify-content:space-between;padding:0 12px}
+.dome{width:56px;height:32px;background:linear-gradient(180deg,#FFE9A0,#C9A227);border-radius:28px 28px 6px 6px;position:relative}
+.dome::after{content:"";position:absolute;top:-8px;left:50%;width:4px;height:12px;background:var(--gold);transform:translateX(-50%);border-radius:999px}
+.mini-dome{width:28px;height:18px;background:linear-gradient(180deg,#FFE9A0,#C9A227);border-radius:14px 14px 4px 4px;opacity:.9}
+.minar{width:6px;height:44px;background:linear-gradient(180deg,#E8E0C0,#C9B78A);border-radius:3px;position:relative}
+.minar::before{content:"";position:absolute;top:-6px;left:50%;width:12px;height:8px;background:#E8E0C0;transform:translateX(-50%);border-radius:3px}
+.title{font-family:"Anek Bangla";font-size:30px;margin:18px 0 0;text-align:center}
+.container{max-width:1140px;margin:0 auto;padding:12px 14px}
+.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:14px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.title{font-size:26px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card-h{padding:14px 16px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed var(--line)}
+.card-h h3{margin:0;font-size:15px;font-family:"Anek Bangla"}
+.badge{font-size:10px;padding:5px 10px;border-radius:999px;background:var(--goldL);border:1px solid #E8D89A;color:var(--green);font-weight:700}
+.prayer-grid{display:grid;gap:8px;padding:10px}
+.p-item{display:flex;align-items:center;gap:12px;padding:12px;border-radius:16px;border:1px solid var(--line);background:linear-gradient(180deg,#fff,#FFFCF0);transition:.2s;position:relative;overflow:hidden}
+.p-item::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:transparent}
+.p-item.active{background:linear-gradient(135deg,var(--green),#1B4A3A);color:#fff;border-color:var(--green)}
+.p-item.active::before{background:var(--gold)}
+.p-item.next{border-color:var(--gold);background:linear-gradient(180deg,#FFFEF6,#FFF3B8)}
+.p-icon{width:48px;height:48px;border-radius:14px;background:#FAF6E8;border:1px solid var(--line);display:grid;place-items:center;font-size:22px;flex:0 0 48px}
+.p-item.active .p-icon{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.2)}
+.p-info{flex:1;min-width:0}.p-name{font-weight:700;font-size:15px}.p-time{font-weight:800;font-size:15px;text-align:right;white-space:nowrap}
+.p-item.active .p-time{color:var(--goldL)}
+.side{display:grid;gap:16px}
+.mini-list{padding:8px}.mini{display:flex;justify-content:space-between;padding:10px 12px;border-radius:12px;background:#FFFBEB;border:1px solid #F8E9B0;margin:6px 0;font-size:12px}
+.nafl-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px}
+.nafl{border:1px solid var(--line);border-radius:14px;padding:11px;background:#fff}
+.nafl b{font-size:10px;color:var(--muted);text-transform:uppercase}.nafl .t{font-size:17px;font-weight:800;color:var(--green);margin-top:2px}
+.count{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;max-width:720px;margin:0 auto;background:rgba(14,59,46,.97);color:#fff;border-radius:20px;padding:12px 14px;display:flex;gap:12px;align-items:center;box-shadow:0 18px 48px rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.14)}
+.count .ico{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#D4A017,#FFF1A0);color:var(--green);display:grid;place-items:center;font-size:20px;flex:0 0 46px}
+.ct{display:flex;gap:6px;font-variant-numeric:tabular-nums}.ct b{font-size:22px}
+.tracker{margin-top:16px}
+.track-top{display:flex;gap:8px;flex-wrap:wrap;padding:12px;border-bottom:1px solid var(--line);background:#FFFEF6}
+.chip{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:11px;font-weight:700;cursor:pointer}
+.chip.active{background:var(--green);color:#fff;border-color:var(--green)}
+.summary{display:flex;gap:8px;overflow:auto;padding:10px 12px;border-bottom:1px solid var(--line)}
+.sum{flex:0 0 auto;min-width:88px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;text-align:center}
+.sum b{display:block;font-size:15px;color:var(--green)}.sum span{font-size:9px;color:var(--muted)}
+.days{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;padding:12px}
+@media(max-width:600px){.days{grid-template-columns:1fr 1fr}}
+@media(max-width:400px){.days{grid-template-columns:1fr}}
+.day{background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px}
+.day.today{border-color:var(--gold);box-shadow:0 0 0 3px var(--goldL)}
+.day-h{display:flex;justify-content:space-between;margin-bottom:8px}.day-h .num{width:28px;height:28px;border-radius:8px;background:var(--green);color:#fff;display:grid;place-items:center;font-weight:700;font-size:11px}
+.pill{display:flex;justify-content:space-between;align-items:center;padding:7px 9px;border-radius:10px;border:1px solid var(--line);background:#FAF6EB;margin:4px 0;font-size:11px;cursor:pointer}
+.pill.done{background:#E8F5E9;border-color:#A7D8B0;font-weight:700}
+.pill .c{width:18px;height:18px;border-radius:6px;border:1px solid #D6D0BA;background:#fff;display:grid;place-items:center;font-size:10px}
+.pill.done .c{background:var(--green);color:#fff;border-color:var(--green)}
+.modal-bg{position:fixed;inset:0;background:rgba(10,20,15,.55);backdrop-filter:blur(8px);display:none;place-items:center;z-index:90;padding:14px}.modal-bg.open{display:grid}
+.modal{width:min(520px,100%);background:#FFFEFB;border-radius:22px;border:1px solid var(--line);overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.3)}
+.modal-h{padding:16px 16px 0}.modal-h h3{margin:0;font-family:"Anek Bangla";font-size:17px}.modal-h p{margin:4px 0 0;color:var(--muted);font-size:12px}
+.auto{margin:12px 16px 0;background:linear-gradient(135deg,#EEF8F0,#FFF8D6);border:1px dashed #C5D8C0;border-radius:14px;padding:11px;display:flex;gap:10px;align-items:center}
+.auto button{margin-left:auto;background:var(--green);color:#fff;border:0;padding:7px 11px;border-radius:999px;font-weight:700;cursor:pointer;font-size:12px}
+.search-w{padding:12px 16px 0}.search{width:100%;padding:11px 11px 11px 36px;border:1px solid var(--line);border-radius:12px;font-size:13px;outline:none}
+.s-ic{position:relative}.s-ic span{position:absolute;left:11px;top:50%;transform:translateY(-50%)}
+.city-list{max-height:300px;overflow:auto;padding:8px 10px;display:grid;gap:5px}
+.city-opt{padding:10px 11px;border-radius:12px;background:#fff;display:flex;justify-content:space-between;cursor:pointer;border:1px solid transparent;font-size:13px}
+.city-opt.sel{background:linear-gradient(135deg,#FFF6C0,#EAF7EF);border-color:#E6D688}
+.modal-f{padding:10px 16px;display:flex;gap:8px;border-top:1px solid var(--line)}.btn{flex:1;padding:10px;border-radius:11px;border:1px solid var(--line);background:#fff;font-weight:700;cursor:pointer;font-family:inherit;font-size:13px}.btn.pr{background:var(--green);color:#fff}
+.loader{padding:30px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="hero-inner">
+<div class="top"><div class="brand"><div class="mark">﷽</div><div><b>ইসলামী বিশ্বকোষ ও আল হাদিস S2</b><small>নামাজের সময়সূচি • Masjid Edition</small></div></div><div class="city" id="openCityModal">📍 <b id="currentCityBn">ঢাকা</b> ▼</div></div>
+<div class="center"><div class="hijri" id="hijriBn">লোড হচ্ছে...</div><div class="beng" id="bengaliBn"></div></div>
+<div class="mosque-line"><div class="minar"></div><div class="mini-dome"></div><div class="dome"></div><div class="mini-dome"></div><div class="minar"></div></div>
+<h1 class="title">নামাজের সময়সূচি</h1>
+</div>
+</div>
+
+<div class="container">
+<div class="grid">
+<div class="card"><div class="card-h"><h3>আজকের ওয়াক্ত</h3><span class="badge" id="todayBadge">আজ</span></div><div class="prayer-grid" id="prayerList"><div class="loader">লোড হচ্ছে...</div></div></div>
+<div class="side">
+<div class="card"><div class="card-h"><h3>নামাজের নিষিদ্ধ সময়সূচী</h3></div><div class="mini-list" id="forbiddenList"></div></div>
+<div class="card"><div class="card-h"><h3>নফল নামাজের সময়সূচী</h3></div><div class="nafl-grid" id="naflList"></div></div>
+</div>
+</div>
+
+<div class="card tracker">
+<div class="card-h"><h3>সম্পূর্ণ মাসের নামাজের ট্র্যাকার</h3><div style="display:flex;gap:6px"><span class="badge" id="trackerMonth">—</span><span class="badge" style="background:#ECFDF5" id="trackerCount">0/0</span></div></div>
+<div class="summary" id="summaryBox"></div>
+<div class="track-top">
+<div class="chip active" data-f="all">সব ওয়াক্ত</div><div class="chip" data-f="fajr">🌙 ফজর</div><div class="chip" data-f="dhuhr">☀️ যুহর</div><div class="chip" data-f="asr">🌤️ আসর</div><div class="chip" data-f="maghrib">🌇 মাগরিব</div><div class="chip" data-f="isha">🌌 ইশা</div>
+</div>
+<div class="days" id="dayList"></div>
+</div>
+</div>
+
+<div class="count"><div class="ico" id="countIcon">🕌</div><div style="flex:1"><div style="font-size:9px;opacity:.7;text-transform:uppercase" id="countLabel">পরবর্তী নামাজ</div><div style="font-weight:700;font-family:Anek Bangla" id="countPray">যুহর</div><div style="font-size:10px;opacity:.7" id="countCity">ঢাকা</div></div><div class="ct"><div><b id="h">00</b><span style="font-size:10px"> ঘ</span></div><div><b id="m">00</b><span style="font-size:10px"> মি</span></div><div><b id="s">00</b><span style="font-size:10px"> সে</span></div></div></div>
+
+<div class="modal-bg" id="cityModalBg"><div class="modal"><div class="modal-h"><h3>স্থান শনাক্ত করুন</h3><p>নামাজের সময় এবং চাঁদের তারিখ দেখাতে আপনার অবস্থান জানা জরুরি।</p></div><div class="auto"><div>📡 <b>অটোমেটিক স্থান শনাক্ত করুন</b></div><button id="autoDetect">শনাক্ত করুন</button></div><div class="search-w"><div class="s-ic"><span>🔍</span><input id="citySearch" class="search" placeholder="শহর নির্বাচন করুন - যেমন ঢাকা"></div></div><div class="city-list" id="cityList"></div><div class="modal-f"><button class="btn" id="cancelCity">বাতিল</button><button class="btn pr" id="saveCity">সংরক্ষণ</button></div></div></div>
+
+<script>
+const CITIES_URL="https://cdn.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia/BangladeshCities.json";
+const CITY_BASE="https://cdn.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia@main/BD/";
+let allCities=[],selectedCity=JSON.parse(localStorage.getItem('prayer_city')||'null')||{name_en:"Dhaka",name_bn:"ঢাকা"},tempSelected=selectedCity,allMonth=[],todayData=null,filter='all';
+const $=s=>document.querySelector(s);
+const toBn=n=>String(n).replace(/\d/g,d=>"০১২৩৪৫৬৭৮৯"[d]);
+function parseM(t){if(!t)return null;const[h,m]=t.split(':').map(Number);return h*60+m;}
+async function loadCities(){try{const r=await fetch(CITIES_URL,{cache:'no-store'});allCities=await r.json();}catch{allCities=[{name_en:"Dhaka",name_bn:"ঢাকা",division:"Dhaka"}];}renderCityList(allCities);}
+function renderCityList(list){const box=$("#cityList");box.innerHTML=list.map(c=>`<div class="city-opt ${tempSelected.name_en===c.name_en?'sel':''}" data-en="${c.name_en}"><span><b>${c.name_bn}</b> <small style="color:#9CA3AF"> ${c.division||''}</small></span><span>${c.name_en===selectedCity.name_en?'✓':''}</span></div>`).join('');box.querySelectorAll('.city-opt').forEach(el=>{el.onclick=()=>{tempSelected=allCities.find(x=>x.name_en===el.dataset.en);renderCityList(filtered());}});}
+function filtered(){const q=$("#citySearch").value.trim();if(!q)return allCities;return allCities.filter(c=>c.name_bn.includes(q)||c.name_en.toLowerCase().includes(q.toLowerCase()));}
+$("#citySearch").addEventListener('input',()=>renderCityList(filtered()));
+
+async function loadCityData(en){
+  const url = CITY_BASE+encodeURIComponent(en)+".json?v="+Date.now();
+  const res=await fetch(url,{cache:'no-store'});
+  if(!res.ok)throw Error('CDN ফাইল পাওয়া যায়নি');
+  const data=await res.json();
+  const newStamp = data[0]?.meta?.scraped_at||'';
+  const oldStamp = localStorage.getItem('last_scraped_'+en)||'';
+  if(oldStamp && oldStamp!==newStamp){
+    console.log('CDN আপডেট:', oldStamp, '->', newStamp);
+  }
+  localStorage.setItem('last_scraped_'+en, newStamp);
+  localStorage.setItem('last_fetch_'+en, Date.now().toString());
+  allMonth=data;
+  const today=new Date();
+  const idx=Math.min(today.getDate()-1,data.length-1);
+  todayData=data[idx>=0?idx:0]||data[0];
+  renderAll();
+}
+setInterval(async()=>{
+  try{
+    const last = parseInt(localStorage.getItem('last_fetch_'+selectedCity.name_en)||'0');
+    if(Date.now()-last > 6*60*60*1000){
+      await loadCityData(selectedCity.name_en);
+    }
+  }catch(e){}
+}, 60*60*1000);
+
+function renderAll(){
+if(!todayData)return;
+$("#currentCityBn").textContent=todayData.meta?.location?.city_bn||selectedCity.name_bn;
+$("#hijriBn").textContent=todayData.date?.hijri?.bn||todayData.date?.full?.bn?.split('•')[0]||'';
+$("#bengaliBn").textContent=todayData.date?.bengali?.bn||todayData.date?.full?.bn?.split('•')[1]||'';
+$("#todayBadge").textContent=todayData.meta?.location?.city_bn||selectedCity.name_bn;
+$("#trackerMonth").textContent=(todayData.date?.full?.bn||'').slice(0,42);
+const order=[{k:'fajr',ic:'🌙',bn:'ফজর'},{k:'dhuhr',ic:'☀️',bn:'যুহর'},{k:'asr',ic:'🌤️',bn:'আসর'},{k:'maghrib',ic:'🌇',bn:'মাগরিব'},{k:'isha',ic:'🌌',bn:'ইশা'}];
+const now=new Date();const nowM=now.getHours()*60+now.getMinutes();
+let active=null,next=null,activeIdx=-1;
+order.forEach((o,i)=>{const s=parseM(todayData.prayer_times?.[o.k]?.start);const e=parseM(todayData.prayer_times?.[o.k]?.end);if(s!=null&&nowM>=s&&nowM<e){active=o.k;activeIdx=i;}});
+if(active===null){for(let i=0;i<order.length;i++){const s=parseM(todayData.prayer_times?.[order[i].k]?.start);if(s!=null&&s>nowM){next=order[i];break;}}if(!next)next=order[0];}else{next=order[activeIdx+1]||order[0];}
+$("#prayerList").innerHTML=order.map(o=>{
+const pt=todayData.prayer_times?.[o.k];if(!pt)return'';
+const isA=active===o.k;const isN=next?.k===o.k&&!isA;
+return `<div class="p-item ${isA?'active':''} ${isN?'next':''}"><div class="p-icon">${o.ic}</div><div class="p-info"><div class="p-name">${pt.label_bn}</div></div><div class="p-time">${pt.time_bn||''}</div></div>`;
+}).join('');
+$("#forbiddenList").innerHTML=['sunrise','noon','sunset'].map(k=>{const d=todayData.forbidden_times?.[k];if(!d)return'';return `<div class="mini"><span>🚫 ${d.label_bn}</span><b>${d.time_bn}</b></div>`;}).join('');
+const n=todayData.nafl_times||{};
+$("#naflList").innerHTML=`<div class="nafl"><b>তাহাজ্জুদ</b><div class="t">${n.tahajjud?.time_bn||'-'}</div></div><div class="nafl"><b>সাহরী শেষ</b><div class="t">${n.tahajjud?.time_bn||todayData.prayer_times?.fajr?.time_bn?.split(' - ')[0]||'-'}</div></div><div class="nafl"><b>ইশরাক</b><div class="t">${n.ishraq?.time_bn||'-'}</div></div><div class="nafl"><b>চাশত</b><div class="t">${n.chasht?.time_bn||'-'}</div></div>`;
+renderDays();startCountdown(next,active);
+}
+function renderDays(){
+const store=JSON.parse(localStorage.getItem('salat_tracker_v2')||'{}');
+const grid=$("#dayList");const todayIdx=new Date().getDate()-1;
+const keys=['fajr','dhuhr','asr','maghrib','isha'];
+const labels={fajr:['🌙','ফজর'],dhuhr:['☀️','যুহর'],asr:['🌤️','আসর'],maghrib:['🌇','মাগরিব'],isha:['🌌','ইশা']};
+grid.innerHTML=allMonth.map((d,i)=>{
+const base=(d.meta?.location?.city||selectedCity.name_en)+'-'+i;
+const done=keys.filter(k=>store[base+'-'+k]).length;
+return `<div class="day ${i===todayIdx?'today':''}"><div class="day-h"><div class="num">${toBn(i+1)}</div><div style="font-size:10px;color:#9B9B93;text-align:right">${d.date?.hijri?.bn?.split(',')[0]||''}<br>${toBn(done)}/৫</div></div>
+${keys.map(k=>{
+if(filter!=='all'&&k!==filter) return '';
+const key=base+'-'+k;const isDone=!!store[key];
+const pt=d.prayer_times?.[k];
+return `<div class="pill ${isDone?'done':''}" data-k="${key}"><span>${labels[k][0]} ${labels[k][1]} <small style="opacity:.6">${pt?.time_bn?.split(' - ')[0]||''}</small></span><div class="c">${isDone?'✓':''}</div></div>`;
+}).join('')}
+</div>`;
+}).join('');
+const totalDays=allMonth.length;const totalWaqt=totalDays*5;
+let totalDone=0;let per={fajr:0,dhuhr:0,asr:0,maghrib:0,isha:0};
+Object.keys(store).forEach(k=>{if(k.startsWith((todayData?.meta?.location?.city||selectedCity.name_en)+'-')){totalDone++;const wk=k.split('-').pop();if(per[wk]!==undefined) per[wk]++;}});
+$("#trackerCount").textContent=`${toBn(totalDone)}/${toBn(totalWaqt)}`;
+$("#summaryBox").innerHTML=`
+<div class="sum"><b>${toBn(totalDone)}</b><span>মোট আদায়</span></div>
+<div class="sum"><b>${toBn(per.fajr)}</b><span>ফজর</span></div>
+<div class="sum"><b>${toBn(per.dhuhr)}</b><span>যুহর</span></div>
+<div class="sum"><b>${toBn(per.asr)}</b><span>আসর</span></div>
+<div class="sum"><b>${toBn(per.maghrib)}</b><span>মাগরিব</span></div>
+<div class="sum"><b>${toBn(per.isha)}</b><span>ইশা</span></div>
+<div class="sum"><b>${totalWaqt?toBn(Math.round((totalDone/totalWaqt)*100))+'%':'০%'}</b><span>অগ্রগতি</span></div>`;
+grid.querySelectorAll('.pill').forEach(el=>{el.onclick=()=>{const k=el.dataset.k;const s=JSON.parse(localStorage.getItem('salat_tracker_v2')||'{}');if(s[k]) delete s[k]; else s[k]=true;localStorage.setItem('salat_tracker_v2',JSON.stringify(s));renderDays();}});
+}
+let timer=null;
+function startCountdown(next,active){
+clearInterval(timer);
+function tick(){
+const now=new Date();if(!todayData||!next)return;
+let tStr=active?todayData.prayer_times?.[active]?.end:todayData.prayer_times?.[next.k]?.start;if(!tStr)return;
+const [th,tm]=tStr.split(':').map(Number);let target=new Date();target.setHours(th,tm,0,0);
+if(target<now&&!active){target.setDate(target.getDate()+1);}
+let diff=Math.max(0,Math.floor((target-now)/1000));
+const h=Math.floor(diff/3600),m=Math.floor((diff%3600)/60),s=diff%60;
+$("#h").textContent=toBn(String(h).padStart(2,'0'));$("#m").textContent=toBn(String(m).padStart(2,'0'));$("#s").textContent=toBn(String(s).padStart(2,'0'));
+if(active){$("#countLabel").textContent=`${todayData.prayer_times[active]?.label_bn||''} শেষ হতে`;$("#countPray").textContent=todayData.prayer_times[active]?.label_bn||'';$("#countIcon").textContent='⏳';}
+else{$("#countLabel").textContent='পরবর্তী নামাজ';$("#countPray").textContent=todayData.prayer_times?.[next.k]?.label_bn||next.k;$("#countIcon").textContent=next.k==='fajr'?'🌙':next.k==='dhuhr'?'☀️':next.k==='asr'?'🌤️':next.k==='maghrib'?'🌇':'🌌';}
+$("#countCity").textContent=`${todayData.meta?.location?.city_bn||selectedCity.name_bn} • ${active?'চলছে':'বাকি'}`;
+}
+tick();timer=setInterval(tick,1000);
+}
+document.querySelectorAll('.chip').forEach(c=>{c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');filter=c.dataset.f;renderDays();}});
+function openM(){$("#cityModalBg").classList.add('open');tempSelected=selectedCity;renderCityList(filtered());}
+function closeM(){$("#cityModalBg").classList.remove('open');}
+$("#openCityModal").onclick=openM;$("#cancelCity").onclick=closeM;
+$("#cityModalBg").addEventListener('click',e=>{if(e.target.id==='cityModalBg')closeM();});
+$("#saveCity").onclick=async()=>{selectedCity=tempSelected;localStorage.setItem('prayer_city',JSON.stringify(selectedCity));closeM();$("#currentCityBn").textContent=selectedCity.name_bn;document.getElementById('prayerList').innerHTML='<div class="loader">লোড হচ্ছে...</div>';await loadCityData(selectedCity.name_en);};
+$("#autoDetect").onclick=()=>{
+if(!navigator.geolocation){alert('লোকেশন সাপোর্ট নেই');return;}
+$("#autoDetect").textContent='খুঁজছি...';
+navigator.geolocation.getCurrentPosition(async pos=>{
+try{
+const r=await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${pos.coords.latitude}&longitude=${pos.coords.longitude}&localityLanguage=bn`);
+const j=await r.json();const cityName=j.city||j.locality||j.principalSubdivision||'Dhaka';
+let found=allCities.find(c=>cityName.toLowerCase().includes(c.name_en.toLowerCase())||c.name_bn.includes(cityName));
+if(!found)found=allCities.find(c=>c.name_en==='Dhaka');
+tempSelected=found;$("#citySearch").value=found.name_bn;renderCityList(filtered());
+}catch(e){}
+$("#autoDetect").textContent='শনাক্ত করুন';
+},()=>{alert('অনুমতি দিন');$("#autoDetect").textContent='শনাক্ত করুন';});
+};
+(async()=>{await loadCities();try{await loadCityData(selectedCity.name_en);}catch{await loadCityData('Dhaka');}})();
+</script>
+</body>
+</html>
