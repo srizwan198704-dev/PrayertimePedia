@@ -2,7 +2,7 @@ import requests, re, json, os
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-URL = "https://muslimbangla.com/world/BD/prayer-times-Dhaka"
+URL = "https://muslimbangla.com/world/BD/prayer-times-Narayanganj"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 BN_TO_EN = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
 def to_en(s): return s.translate(BN_TO_EN) if s else ""
