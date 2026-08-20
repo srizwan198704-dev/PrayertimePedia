@@ -1,0 +1,5810 @@
+{
+  "meta": {
+    "source": "https://muslimbangla.com/world",
+    "pattern": "https://muslimbangla.com/world/{code}/prayer-times-{slug}",
+    "generated_at": "2026-08-20",
+    "total_countries": 234,
+    "total_cities": 409,
+    "bangladesh_districts": 64,
+    "coverage": "234 countries including UN members + territories"
+  },
+  "countries": [
+    {
+      "id": 1,
+      "code": "AF",
+      "flag": "🇦🇫",
+      "name_en": "Afghanistan",
+      "name_bn": "আফগানিস্তান",
+      "capital": "Kabul",
+      "timezone": "Asia/Kabul",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kabul",
+          "name_bn": "Kabul",
+          "slug": "Kabul",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AF/prayer-times-Kabul"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "code": "AX",
+      "flag": "🇦🇽",
+      "name_en": "Aland Islands",
+      "name_bn": "আল্যান্ড",
+      "capital": "Mariehamn",
+      "timezone": "Europe/Mariehamn",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Mariehamn",
+          "name_bn": "Mariehamn",
+          "slug": "Mariehamn",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AX/prayer-times-Mariehamn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "AL",
+      "flag": "🇦🇱",
+      "name_en": "Albania",
+      "name_bn": "আলবেনিয়া",
+      "capital": "Tirana",
+      "timezone": "Europe/Tirane",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tirana",
+          "name_bn": "Tirana",
+          "slug": "Tirana",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AL/prayer-times-Tirana"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "DZ",
+      "flag": "🇩🇿",
+      "name_en": "Algeria",
+      "name_bn": "আলজেরিয়া",
+      "capital": "Algiers",
+      "timezone": "Africa/Algiers",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Algiers",
+          "name_bn": "Algiers",
+          "slug": "Algiers",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DZ/prayer-times-Algiers"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "code": "AD",
+      "flag": "🇦🇩",
+      "name_en": "Andorra",
+      "name_bn": "অ্যান্ডোরা",
+      "capital": "Andorra la Vella",
+      "timezone": "Europe/Andorra",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Andorra la Vella",
+          "name_bn": "Andorra la Vella",
+          "slug": "Andorra-la-Vella",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AD/prayer-times-Andorra-la-Vella"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "code": "AO",
+      "flag": "🇦🇴",
+      "name_en": "Angola",
+      "name_bn": "অ্যাঙ্গোলা",
+      "capital": "Luanda",
+      "timezone": "Africa/Luanda",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Luanda",
+          "name_bn": "Luanda",
+          "slug": "Luanda",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AO/prayer-times-Luanda"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "code": "AI",
+      "flag": "🇦🇮",
+      "name_en": "Anguilla",
+      "name_bn": "অ্যাঙ্গুইলা",
+      "capital": "The Valley",
+      "timezone": "America/Anguilla",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "The Valley",
+          "name_bn": "The Valley",
+          "slug": "The-Valley",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AI/prayer-times-The-Valley"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "code": "AG",
+      "flag": "🇦🇬",
+      "name_en": "Antigua and Barbuda",
+      "name_bn": "অ্যান্টিগুয়া",
+      "capital": "St. John's",
+      "timezone": "America/Antigua",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "St. John's",
+          "name_bn": "St. John's",
+          "slug": "St.-John's",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AG/prayer-times-St.-John's"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "code": "AR",
+      "flag": "🇦🇷",
+      "name_en": "Argentina",
+      "name_bn": "আর্জেন্টিনা",
+      "capital": "Buenos Aires",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Buenos Aires",
+          "name_bn": "Buenos Aires",
+          "slug": "Buenos-Aires",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AR/prayer-times-Buenos-Aires"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "code": "AM",
+      "flag": "🇦🇲",
+      "name_en": "Armenia",
+      "name_bn": "আর্মেনিয়া",
+      "capital": "Yerevan",
+      "timezone": "Asia/Yerevan",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Yerevan",
+          "name_bn": "Yerevan",
+          "slug": "Yerevan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AM/prayer-times-Yerevan"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "code": "AW",
+      "flag": "🇦🇼",
+      "name_en": "Aruba",
+      "name_bn": "আরুবা",
+      "capital": "Oranjestad",
+      "timezone": "America/Aruba",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Oranjestad",
+          "name_bn": "Oranjestad",
+          "slug": "Oranjestad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AW/prayer-times-Oranjestad"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "code": "AU",
+      "flag": "🇦🇺",
+      "name_en": "Australia",
+      "name_bn": "অস্ট্রেলিয়া",
+      "capital": "Canberra",
+      "timezone": "Australia/Sydney",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Canberra",
+          "name_bn": "Canberra",
+          "slug": "Canberra",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AU/prayer-times-Canberra"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "code": "AT",
+      "flag": "🇦🇹",
+      "name_en": "Austria",
+      "name_bn": "অস্ট্রিয়া",
+      "capital": "Vienna",
+      "timezone": "Europe/Vienna",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Vienna",
+          "name_bn": "Vienna",
+          "slug": "Vienna",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AT/prayer-times-Vienna"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "code": "AZ",
+      "flag": "🇦🇿",
+      "name_en": "Azerbaijan",
+      "name_bn": "আজারবাইজান",
+      "capital": "Baku",
+      "timezone": "Asia/Baku",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Baku",
+          "name_bn": "Baku",
+          "slug": "Baku",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AZ/prayer-times-Baku"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "code": "BS",
+      "flag": "🇧🇸",
+      "name_en": "Bahamas",
+      "name_bn": "বাহামা",
+      "capital": "Nassau",
+      "timezone": "America/Nassau",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nassau",
+          "name_bn": "Nassau",
+          "slug": "Nassau",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BS/prayer-times-Nassau"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "code": "BH",
+      "flag": "🇧🇭",
+      "name_en": "Bahrain",
+      "name_bn": "বাহরাইন",
+      "capital": "Manama",
+      "timezone": "Asia/Bahrain",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Manama",
+          "name_bn": "Manama",
+          "slug": "Manama",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BH/prayer-times-Manama"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "code": "BD",
+      "flag": "🇧🇩",
+      "name_en": "Bangladesh",
+      "name_bn": "বাংলাদেশ",
+      "capital": "Dhaka",
+      "timezone": "Asia/Dhaka",
+      "total_cities": 63,
+      "cities": [
+        {
+          "name_en": "Bagerhat",
+          "name_bn": "বাগেরহাট",
+          "slug": "Bagerhat",
+          "division": "Khulna",
+          "district": "Bagerhat",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Bagerhat"
+        },
+        {
+          "name_en": "Bandarban",
+          "name_bn": "বান্দরবান",
+          "slug": "Bandarban",
+          "division": "Chittagong",
+          "district": "Bandarban",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Bandarban"
+        },
+        {
+          "name_en": "Barguna",
+          "name_bn": "বরগুনা",
+          "slug": "Barguna",
+          "division": "Barisal",
+          "district": "Barguna",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Barguna"
+        },
+        {
+          "name_en": "Barisal",
+          "name_bn": "বরিশাল",
+          "slug": "Barisal",
+          "division": "Barisal",
+          "district": "Barisal",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Barisal"
+        },
+        {
+          "name_en": "Bhola",
+          "name_bn": "ভোলা",
+          "slug": "Bhola",
+          "division": "Barisal",
+          "district": "Bhola",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Bhola"
+        },
+        {
+          "name_en": "Bogura",
+          "name_bn": "বগুড়া",
+          "slug": "Bogura",
+          "division": "Rajshahi",
+          "district": "Bogura",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Bogura"
+        },
+        {
+          "name_en": "Brahmanbaria",
+          "name_bn": "ব্রাহ্মণবাড়িয়া",
+          "slug": "Brahmanbaria",
+          "division": "Chittagong",
+          "district": "Brahmanbaria",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Brahmanbaria"
+        },
+        {
+          "name_en": "Chandpur",
+          "name_bn": "চাঁদপুর",
+          "slug": "Chandpur",
+          "division": "Chittagong",
+          "district": "Chandpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Chandpur"
+        },
+        {
+          "name_en": "Chittagong",
+          "name_bn": "চট্টগ্রাম",
+          "slug": "Chattogram",
+          "division": "Chittagong",
+          "district": "Chittagong",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Chattogram"
+        },
+        {
+          "name_en": "Chuadanga",
+          "name_bn": "চুয়াডাঙ্গা",
+          "slug": "Chuadanga",
+          "division": "Khulna",
+          "district": "Chuadanga",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Chuadanga"
+        },
+        {
+          "name_en": "Coxs Bazar",
+          "name_bn": "কক্সবাজার",
+          "slug": "Coxs-Bazar",
+          "division": "Chittagong",
+          "district": "Coxs Bazar",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Coxs-Bazar"
+        },
+        {
+          "name_en": "Comilla",
+          "name_bn": "কুমিল্লা",
+          "slug": "Cumilla",
+          "division": "Chittagong",
+          "district": "Comilla",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Cumilla"
+        },
+        {
+          "name_en": "Dhaka",
+          "name_bn": "ঢাকা",
+          "slug": "Dhaka",
+          "division": "Dhaka",
+          "district": "Dhaka",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Dhaka"
+        },
+        {
+          "name_en": "Dinajpur",
+          "name_bn": "দিনাজপুর",
+          "slug": "Dinajpur",
+          "division": "Rangpur",
+          "district": "Dinajpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Dinajpur"
+        },
+        {
+          "name_en": "Faridpur",
+          "name_bn": "ফরিদপুর",
+          "slug": "Faridpur",
+          "division": "Dhaka",
+          "district": "Faridpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Faridpur"
+        },
+        {
+          "name_en": "Feni",
+          "name_bn": "ফেনী",
+          "slug": "Feni",
+          "division": "Chittagong",
+          "district": "Feni",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Feni"
+        },
+        {
+          "name_en": "Gaibandha",
+          "name_bn": "গাইবান্ধা",
+          "slug": "Gaibandha",
+          "division": "Rangpur",
+          "district": "Gaibandha",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Gaibandha"
+        },
+        {
+          "name_en": "Gazipur",
+          "name_bn": "গাজীপুর",
+          "slug": "Gazipur",
+          "division": "Dhaka",
+          "district": "Gazipur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Gazipur"
+        },
+        {
+          "name_en": "Gopalganj",
+          "name_bn": "গোপালগঞ্জ",
+          "slug": "Gopalganj",
+          "division": "Dhaka",
+          "district": "Gopalganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Gopalganj"
+        },
+        {
+          "name_en": "Habiganj",
+          "name_bn": "হবিগঞ্জ",
+          "slug": "Habiganj",
+          "division": "Sylhet",
+          "district": "Habiganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Habiganj"
+        },
+        {
+          "name_en": "Jamalpur",
+          "name_bn": "জামালপুর",
+          "slug": "Jamalpur",
+          "division": "Mymensingh",
+          "district": "Jamalpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Jamalpur"
+        },
+        {
+          "name_en": "Jessore",
+          "name_bn": "যশোর",
+          "slug": "Jashore",
+          "division": "Khulna",
+          "district": "Jessore",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Jashore"
+        },
+        {
+          "name_en": "Jhalokati",
+          "name_bn": "ঝালকাঠি",
+          "slug": "Jhalokati",
+          "division": "Barisal",
+          "district": "Jhalokati",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Jhalokati"
+        },
+        {
+          "name_en": "Jhenaidah",
+          "name_bn": "ঝিনাইদহ",
+          "slug": "Jhenaidah",
+          "division": "Khulna",
+          "district": "Jhenaidah",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Jhenaidah"
+        },
+        {
+          "name_en": "Joypurhat",
+          "name_bn": "জয়পুরহাট",
+          "slug": "Joypurhat",
+          "division": "Rajshahi",
+          "district": "Joypurhat",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Joypurhat"
+        },
+        {
+          "name_en": "Khagrachhari",
+          "name_bn": "খাগড়াছড়ি",
+          "slug": "Khagrachhari",
+          "division": "Chittagong",
+          "district": "Khagrachhari",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Khagrachhari"
+        },
+        {
+          "name_en": "Khulna",
+          "name_bn": "খুলনা",
+          "slug": "Khulna",
+          "division": "Khulna",
+          "district": "Khulna",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Khulna"
+        },
+        {
+          "name_en": "Kishoreganj",
+          "name_bn": "কিশোরগঞ্জ",
+          "slug": "Kishoreganj",
+          "division": "Dhaka",
+          "district": "Kishoreganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Kishoreganj"
+        },
+        {
+          "name_en": "Kurigram",
+          "name_bn": "কুড়িগ্রাম",
+          "slug": "Kurigram",
+          "division": "Rangpur",
+          "district": "Kurigram",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Kurigram"
+        },
+        {
+          "name_en": "Kushtia",
+          "name_bn": "কুষ্টিয়া",
+          "slug": "Kushtia",
+          "division": "Khulna",
+          "district": "Kushtia",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Kushtia"
+        },
+        {
+          "name_en": "Lakshmipur",
+          "name_bn": "লক্ষ্মীপুর",
+          "slug": "Lakshmipur",
+          "division": "Chittagong",
+          "district": "Lakshmipur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Lakshmipur"
+        },
+        {
+          "name_en": "Lalmonirhat",
+          "name_bn": "লালমনিরহাট",
+          "slug": "Lalmonirhat",
+          "division": "Rangpur",
+          "district": "Lalmonirhat",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Lalmonirhat"
+        },
+        {
+          "name_en": "Madaripur",
+          "name_bn": "মাদারীপুর",
+          "slug": "Madaripur",
+          "division": "Dhaka",
+          "district": "Madaripur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Madaripur"
+        },
+        {
+          "name_en": "Magura",
+          "name_bn": "মাগুরা",
+          "slug": "Magura",
+          "division": "Khulna",
+          "district": "Magura",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Magura"
+        },
+        {
+          "name_en": "Manikganj",
+          "name_bn": "মানিকগঞ্জ",
+          "slug": "Manikganj",
+          "division": "Dhaka",
+          "district": "Manikganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Manikganj"
+        },
+        {
+          "name_en": "Meherpur",
+          "name_bn": "মেহেরপুর",
+          "slug": "Meherpur",
+          "division": "Khulna",
+          "district": "Meherpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Meherpur"
+        },
+        {
+          "name_en": "Moulvibazar",
+          "name_bn": "মৌলভীবাজার",
+          "slug": "Moulvibazar",
+          "division": "Sylhet",
+          "district": "Moulvibazar",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Moulvibazar"
+        },
+        {
+          "name_en": "Munshiganj",
+          "name_bn": "মুন্সিগঞ্জ",
+          "slug": "Munshiganj",
+          "division": "Dhaka",
+          "district": "Munshiganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Munshiganj"
+        },
+        {
+          "name_en": "Mymensingh",
+          "name_bn": "ময়মনসিংহ",
+          "slug": "Mymensingh",
+          "division": "Mymensingh",
+          "district": "Mymensingh",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Mymensingh"
+        },
+        {
+          "name_en": "Naogaon",
+          "name_bn": "নওগাঁ",
+          "slug": "Naogaon",
+          "division": "Rajshahi",
+          "district": "Naogaon",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Naogaon"
+        },
+        {
+          "name_en": "Narail",
+          "name_bn": "নড়াইল",
+          "slug": "Narail",
+          "division": "Khulna",
+          "district": "Narail",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Narail"
+        },
+        {
+          "name_en": "Narayanganj",
+          "name_bn": "নারায়ণগঞ্জ",
+          "slug": "Narayanganj",
+          "division": "Dhaka",
+          "district": "Narayanganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Narayanganj"
+        },
+        {
+          "name_en": "Narsingdi",
+          "name_bn": "নরসিংদী",
+          "slug": "Narsingdi",
+          "division": "Dhaka",
+          "district": "Narsingdi",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Narsingdi"
+        },
+        {
+          "name_en": "Natore",
+          "name_bn": "নাটোর",
+          "slug": "Natore",
+          "division": "Rajshahi",
+          "district": "Natore",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Natore"
+        },
+        {
+          "name_en": "Netrokona",
+          "name_bn": "নেত্রকোনা",
+          "slug": "Netrokona",
+          "division": "Mymensingh",
+          "district": "Netrokona",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Netrokona"
+        },
+        {
+          "name_en": "Nilphamari",
+          "name_bn": "নীলফামারী",
+          "slug": "Nilphamari",
+          "division": "Rangpur",
+          "district": "Nilphamari",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Nilphamari"
+        },
+        {
+          "name_en": "Noakhali",
+          "name_bn": "নোয়াখালী",
+          "slug": "Noakhali",
+          "division": "Chittagong",
+          "district": "Noakhali",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Noakhali"
+        },
+        {
+          "name_en": "Pabna",
+          "name_bn": "পাবনা",
+          "slug": "Pabna",
+          "division": "Rajshahi",
+          "district": "Pabna",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Pabna"
+        },
+        {
+          "name_en": "Panchagarh",
+          "name_bn": "পঞ্চগড়",
+          "slug": "Panchagarh",
+          "division": "Rangpur",
+          "district": "Panchagarh",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Panchagarh"
+        },
+        {
+          "name_en": "Patuakhali",
+          "name_bn": "পটুয়াখালী",
+          "slug": "Patuakhali",
+          "division": "Barisal",
+          "district": "Patuakhali",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Patuakhali"
+        },
+        {
+          "name_en": "Pirojpur",
+          "name_bn": "পিরোজপুর",
+          "slug": "Pirojpur",
+          "division": "Barisal",
+          "district": "Pirojpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Pirojpur"
+        },
+        {
+          "name_en": "Rajbari",
+          "name_bn": "রাজবাড়ী",
+          "slug": "Rajbari",
+          "division": "Dhaka",
+          "district": "Rajbari",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Rajbari"
+        },
+        {
+          "name_en": "Rajshahi",
+          "name_bn": "রাজশাহী",
+          "slug": "Rajshahi",
+          "division": "Rajshahi",
+          "district": "Rajshahi",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Rajshahi"
+        },
+        {
+          "name_en": "Rangamati",
+          "name_bn": "রাঙ্গামাটি",
+          "slug": "Rangamati",
+          "division": "Chittagong",
+          "district": "Rangamati",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Rangamati"
+        },
+        {
+          "name_en": "Rangpur",
+          "name_bn": "রংপুর",
+          "slug": "Rangpur",
+          "division": "Rangpur",
+          "district": "Rangpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Rangpur"
+        },
+        {
+          "name_en": "Satkhira",
+          "name_bn": "সাতক্ষীরা",
+          "slug": "Satkhira",
+          "division": "Khulna",
+          "district": "Satkhira",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Satkhira"
+        },
+        {
+          "name_en": "Shariatpur",
+          "name_bn": "শরীয়তপুর",
+          "slug": "Shariatpur",
+          "division": "Dhaka",
+          "district": "Shariatpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Shariatpur"
+        },
+        {
+          "name_en": "Sherpur",
+          "name_bn": "শেরপুর",
+          "slug": "Sherpur",
+          "division": "Mymensingh",
+          "district": "Sherpur",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Sherpur"
+        },
+        {
+          "name_en": "Sirajganj",
+          "name_bn": "সিরাজগঞ্জ",
+          "slug": "Sirajganj",
+          "division": "Rajshahi",
+          "district": "Sirajganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Sirajganj"
+        },
+        {
+          "name_en": "Sunamganj",
+          "name_bn": "সুনামগঞ্জ",
+          "slug": "Sunamganj",
+          "division": "Sylhet",
+          "district": "Sunamganj",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Sunamganj"
+        },
+        {
+          "name_en": "Sylhet",
+          "name_bn": "সিলেট",
+          "slug": "Sylhet",
+          "division": "Sylhet",
+          "district": "Sylhet",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Sylhet"
+        },
+        {
+          "name_en": "Tangail",
+          "name_bn": "টাঙ্গাইল",
+          "slug": "Tangail",
+          "division": "Dhaka",
+          "district": "Tangail",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Tangail"
+        },
+        {
+          "name_en": "Thakurgaon",
+          "name_bn": "ঠাকুরগাঁও",
+          "slug": "Thakurgaon",
+          "division": "Rangpur",
+          "district": "Thakurgaon",
+          "type": "district",
+          "url": "https://muslimbangla.com/world/BD/prayer-times-Thakurgaon"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "code": "BB",
+      "flag": "🇧🇧",
+      "name_en": "Barbados",
+      "name_bn": "বার্বাডোস",
+      "capital": "Bridgetown",
+      "timezone": "America/Barbados",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bridgetown",
+          "name_bn": "Bridgetown",
+          "slug": "Bridgetown",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BB/prayer-times-Bridgetown"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "code": "BY",
+      "flag": "🇧🇾",
+      "name_en": "Belarus",
+      "name_bn": "বেলারুশ",
+      "capital": "Minsk",
+      "timezone": "Europe/Minsk",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Minsk",
+          "name_bn": "Minsk",
+          "slug": "Minsk",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BY/prayer-times-Minsk"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "code": "BE",
+      "flag": "🇧🇪",
+      "name_en": "Belgium",
+      "name_bn": "বেলজিয়াম",
+      "capital": "Brussels",
+      "timezone": "Europe/Brussels",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Brussels",
+          "name_bn": "Brussels",
+          "slug": "Brussels",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BE/prayer-times-Brussels"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "code": "BZ",
+      "flag": "🇧🇿",
+      "name_en": "Belize",
+      "name_bn": "বেলিজ",
+      "capital": "Belmopan",
+      "timezone": "America/Belize",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Belmopan",
+          "name_bn": "Belmopan",
+          "slug": "Belmopan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BZ/prayer-times-Belmopan"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "code": "BJ",
+      "flag": "🇧🇯",
+      "name_en": "Benin",
+      "name_bn": "বেনিন",
+      "capital": "Porto-Novo",
+      "timezone": "Africa/Porto-Novo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Porto-Novo",
+          "name_bn": "Porto-Novo",
+          "slug": "Porto-Novo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BJ/prayer-times-Porto-Novo"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "code": "BM",
+      "flag": "🇧🇲",
+      "name_en": "Bermuda",
+      "name_bn": "বারমুডা",
+      "capital": "Hamilton",
+      "timezone": "Atlantic/Bermuda",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Hamilton",
+          "name_bn": "Hamilton",
+          "slug": "Hamilton",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BM/prayer-times-Hamilton"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "code": "BT",
+      "flag": "🇧🇹",
+      "name_en": "Bhutan",
+      "name_bn": "ভুটান",
+      "capital": "Thimphu",
+      "timezone": "Asia/Thimphu",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Thimphu",
+          "name_bn": "Thimphu",
+          "slug": "Thimphu",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BT/prayer-times-Thimphu"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "code": "BO",
+      "flag": "🇧🇴",
+      "name_en": "Bolivia",
+      "name_bn": "বলিভিয়া",
+      "capital": "Sucre",
+      "timezone": "America/La_Paz",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Sucre",
+          "name_bn": "Sucre",
+          "slug": "Sucre",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BO/prayer-times-Sucre"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "code": "BA",
+      "flag": "🇧🇦",
+      "name_en": "Bosnia and Herzegovina",
+      "name_bn": "বসনিয়া",
+      "capital": "Sarajevo",
+      "timezone": "Europe/Sarajevo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Sarajevo",
+          "name_bn": "Sarajevo",
+          "slug": "Sarajevo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BA/prayer-times-Sarajevo"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "code": "BW",
+      "flag": "🇧🇼",
+      "name_en": "Botswana",
+      "name_bn": "বতসোয়ানা",
+      "capital": "Gaborone",
+      "timezone": "Africa/Gaborone",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Gaborone",
+          "name_bn": "Gaborone",
+          "slug": "Gaborone",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BW/prayer-times-Gaborone"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "code": "BR",
+      "flag": "🇧🇷",
+      "name_en": "Brazil",
+      "name_bn": "ব্রাজিল",
+      "capital": "Brasilia",
+      "timezone": "America/Sao_Paulo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Brasilia",
+          "name_bn": "Brasilia",
+          "slug": "Brasilia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BR/prayer-times-Brasilia"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "code": "IO",
+      "flag": "🇮🇴",
+      "name_en": "British Indian Ocean Territory",
+      "name_bn": "ব্রিটিশ ভারত মহাসাগর",
+      "capital": "Diego Garcia",
+      "timezone": "Indian/Chagos",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Diego Garcia",
+          "name_bn": "Diego Garcia",
+          "slug": "Diego-Garcia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IO/prayer-times-Diego-Garcia"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "code": "VG",
+      "flag": "🇻🇬",
+      "name_en": "British Virgin Islands",
+      "name_bn": "ব্রিটিশ ভার্জিন",
+      "capital": "Road Town",
+      "timezone": "America/Tortola",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Road Town",
+          "name_bn": "Road Town",
+          "slug": "Road-Town",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VG/prayer-times-Road-Town"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "code": "BN",
+      "flag": "🇧🇳",
+      "name_en": "Brunei",
+      "name_bn": "ব্রুনাই",
+      "capital": "Bandar Seri Begawan",
+      "timezone": "Asia/Brunei",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bandar Seri Begawan",
+          "name_bn": "Bandar Seri Begawan",
+          "slug": "Bandar-Seri-Begawan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BN/prayer-times-Bandar-Seri-Begawan"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "code": "BG",
+      "flag": "🇧🇬",
+      "name_en": "Bulgaria",
+      "name_bn": "বুলগেরিয়া",
+      "capital": "Sofia",
+      "timezone": "Europe/Sofia",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Sofia",
+          "name_bn": "Sofia",
+          "slug": "Sofia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BG/prayer-times-Sofia"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "code": "BF",
+      "flag": "🇧🇫",
+      "name_en": "Burkina Faso",
+      "name_bn": "বুরকিনা ফাসো",
+      "capital": "Ouagadougou",
+      "timezone": "Africa/Ouagadougou",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ouagadougou",
+          "name_bn": "Ouagadougou",
+          "slug": "Ouagadougou",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BF/prayer-times-Ouagadougou"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "code": "BI",
+      "flag": "🇧🇮",
+      "name_en": "Burundi",
+      "name_bn": "বুরুন্ডি",
+      "capital": "Bujumbura",
+      "timezone": "Africa/Bujumbura",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bujumbura",
+          "name_bn": "Bujumbura",
+          "slug": "Bujumbura",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BI/prayer-times-Bujumbura"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "code": "KH",
+      "flag": "🇰🇭",
+      "name_en": "Cambodia",
+      "name_bn": "কম্বোডিয়া",
+      "capital": "Phnom Penh",
+      "timezone": "Asia/Phnom_Penh",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Phnom Penh",
+          "name_bn": "Phnom Penh",
+          "slug": "Phnom-Penh",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KH/prayer-times-Phnom-Penh"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "code": "CM",
+      "flag": "🇨🇲",
+      "name_en": "Cameroon",
+      "name_bn": "ক্যামেরুন",
+      "capital": "Yaounde",
+      "timezone": "Africa/Douala",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Yaounde",
+          "name_bn": "Yaounde",
+          "slug": "Yaounde",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CM/prayer-times-Yaounde"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "code": "CA",
+      "flag": "🇨🇦",
+      "name_en": "Canada",
+      "name_bn": "কানাডা",
+      "capital": "Ottawa",
+      "timezone": "America/Toronto",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ottawa",
+          "name_bn": "Ottawa",
+          "slug": "Ottawa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CA/prayer-times-Ottawa"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "code": "CV",
+      "flag": "🇨🇻",
+      "name_en": "Cape Verde",
+      "name_bn": "কেপ ভার্দে",
+      "capital": "Praia",
+      "timezone": "Atlantic/Cape_Verde",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Praia",
+          "name_bn": "Praia",
+          "slug": "Praia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CV/prayer-times-Praia"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "code": "KY",
+      "flag": "🇰🇾",
+      "name_en": "Cayman Islands",
+      "name_bn": "কেম্যান",
+      "capital": "George Town",
+      "timezone": "America/Cayman",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "George Town",
+          "name_bn": "George Town",
+          "slug": "George-Town",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KY/prayer-times-George-Town"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "code": "CF",
+      "flag": "🇨🇫",
+      "name_en": "Central African Republic",
+      "name_bn": "মধ্য আফ্রিকা",
+      "capital": "Bangui",
+      "timezone": "Africa/Bangui",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bangui",
+          "name_bn": "Bangui",
+          "slug": "Bangui",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CF/prayer-times-Bangui"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "code": "TD",
+      "flag": "🇹🇩",
+      "name_en": "Chad",
+      "name_bn": "চাদ",
+      "capital": "NDjamena",
+      "timezone": "Africa/Ndjamena",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "NDjamena",
+          "name_bn": "NDjamena",
+          "slug": "NDjamena",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TD/prayer-times-NDjamena"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "code": "CL",
+      "flag": "🇨🇱",
+      "name_en": "Chile",
+      "name_bn": "চিলি",
+      "capital": "Santiago",
+      "timezone": "America/Santiago",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Santiago",
+          "name_bn": "Santiago",
+          "slug": "Santiago",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CL/prayer-times-Santiago"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "code": "CN",
+      "flag": "🇨🇳",
+      "name_en": "China",
+      "name_bn": "চীন",
+      "capital": "Beijing",
+      "timezone": "Asia/Shanghai",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Beijing",
+          "name_bn": "Beijing",
+          "slug": "Beijing",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CN/prayer-times-Beijing"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "code": "CX",
+      "flag": "🇨🇽",
+      "name_en": "Christmas Island",
+      "name_bn": "ক্রিসমাস দ্বীপ",
+      "capital": "Flying Fish Cove",
+      "timezone": "Indian/Christmas",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Flying Fish Cove",
+          "name_bn": "Flying Fish Cove",
+          "slug": "Flying-Fish-Cove",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CX/prayer-times-Flying-Fish-Cove"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "code": "CC",
+      "flag": "🇨🇨",
+      "name_en": "Cocos Islands",
+      "name_bn": "কোকোস",
+      "capital": "West Island",
+      "timezone": "Indian/Cocos",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "West Island",
+          "name_bn": "West Island",
+          "slug": "West-Island",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CC/prayer-times-West-Island"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "code": "CO",
+      "flag": "🇨🇴",
+      "name_en": "Colombia",
+      "name_bn": "কলম্বিয়া",
+      "capital": "Bogota",
+      "timezone": "America/Bogota",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bogota",
+          "name_bn": "Bogota",
+          "slug": "Bogota",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CO/prayer-times-Bogota"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "code": "KM",
+      "flag": "🇰🇲",
+      "name_en": "Comoros",
+      "name_bn": "কমোরোস",
+      "capital": "Moroni",
+      "timezone": "Indian/Comoro",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Moroni",
+          "name_bn": "Moroni",
+          "slug": "Moroni",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KM/prayer-times-Moroni"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "code": "CG",
+      "flag": "🇨🇬",
+      "name_en": "Congo",
+      "name_bn": "কঙ্গো",
+      "capital": "Brazzaville",
+      "timezone": "Africa/Brazzaville",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Brazzaville",
+          "name_bn": "Brazzaville",
+          "slug": "Brazzaville",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CG/prayer-times-Brazzaville"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "code": "CK",
+      "flag": "🇨🇰",
+      "name_en": "Cook Islands",
+      "name_bn": "কুক দ্বীপপুঞ্জ",
+      "capital": "Avarua",
+      "timezone": "Pacific/Rarotonga",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Avarua",
+          "name_bn": "Avarua",
+          "slug": "Avarua",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CK/prayer-times-Avarua"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "code": "CR",
+      "flag": "🇨🇷",
+      "name_en": "Costa Rica",
+      "name_bn": "কোস্টারিকা",
+      "capital": "San Jose",
+      "timezone": "America/Costa_Rica",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "San Jose",
+          "name_bn": "San Jose",
+          "slug": "San-Jose",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CR/prayer-times-San-Jose"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "code": "HR",
+      "flag": "🇭🇷",
+      "name_en": "Croatia",
+      "name_bn": "ক্রোয়েশিয়া",
+      "capital": "Zagreb",
+      "timezone": "Europe/Zagreb",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Zagreb",
+          "name_bn": "Zagreb",
+          "slug": "Zagreb",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/HR/prayer-times-Zagreb"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "code": "CU",
+      "flag": "🇨🇺",
+      "name_en": "Cuba",
+      "name_bn": "কিউবা",
+      "capital": "Havana",
+      "timezone": "America/Havana",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Havana",
+          "name_bn": "Havana",
+          "slug": "Havana",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CU/prayer-times-Havana"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "code": "CW",
+      "flag": "🇨🇼",
+      "name_en": "Curacao",
+      "name_bn": "কুরাসাও",
+      "capital": "Willemstad",
+      "timezone": "America/Curacao",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Willemstad",
+          "name_bn": "Willemstad",
+          "slug": "Willemstad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CW/prayer-times-Willemstad"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "code": "CY",
+      "flag": "🇨🇾",
+      "name_en": "Cyprus",
+      "name_bn": "সাইপ্রাস",
+      "capital": "Nicosia",
+      "timezone": "Asia/Nicosia",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nicosia",
+          "name_bn": "Nicosia",
+          "slug": "Nicosia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CY/prayer-times-Nicosia"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "code": "CZ",
+      "flag": "🇨🇿",
+      "name_en": "Czech Republic",
+      "name_bn": "চেক প্রজাতন্ত্র",
+      "capital": "Prague",
+      "timezone": "Europe/Prague",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Prague",
+          "name_bn": "Prague",
+          "slug": "Prague",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CZ/prayer-times-Prague"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "code": "CD",
+      "flag": "🇨🇩",
+      "name_en": "DR Congo",
+      "name_bn": "ডিআর কঙ্গো",
+      "capital": "Kinshasa",
+      "timezone": "Africa/Kinshasa",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kinshasa",
+          "name_bn": "Kinshasa",
+          "slug": "Kinshasa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CD/prayer-times-Kinshasa"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "code": "DK",
+      "flag": "🇩🇰",
+      "name_en": "Denmark",
+      "name_bn": "ডেনমার্ক",
+      "capital": "Copenhagen",
+      "timezone": "Europe/Copenhagen",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Copenhagen",
+          "name_bn": "Copenhagen",
+          "slug": "Copenhagen",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DK/prayer-times-Copenhagen"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "code": "DJ",
+      "flag": "🇩🇯",
+      "name_en": "Djibouti",
+      "name_bn": "জিবুতি",
+      "capital": "Djibouti",
+      "timezone": "Africa/Djibouti",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Djibouti",
+          "name_bn": "Djibouti",
+          "slug": "Djibouti",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DJ/prayer-times-Djibouti"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "code": "DM",
+      "flag": "🇩🇲",
+      "name_en": "Dominica",
+      "name_bn": "ডোমিনিকা",
+      "capital": "Roseau",
+      "timezone": "America/Dominica",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Roseau",
+          "name_bn": "Roseau",
+          "slug": "Roseau",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DM/prayer-times-Roseau"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "code": "DO",
+      "flag": "🇩🇴",
+      "name_en": "Dominican Republic",
+      "name_bn": "ডোমিনিকান",
+      "capital": "Santo Domingo",
+      "timezone": "America/Santo_Domingo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Santo Domingo",
+          "name_bn": "Santo Domingo",
+          "slug": "Santo-Domingo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DO/prayer-times-Santo-Domingo"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "code": "EC",
+      "flag": "🇪🇨",
+      "name_en": "Ecuador",
+      "name_bn": "ইকুয়েডর",
+      "capital": "Quito",
+      "timezone": "America/Guayaquil",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Quito",
+          "name_bn": "Quito",
+          "slug": "Quito",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EC/prayer-times-Quito"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "code": "EG",
+      "flag": "🇪🇬",
+      "name_en": "Egypt",
+      "name_bn": "মিশর",
+      "capital": "Cairo",
+      "timezone": "Africa/Cairo",
+      "total_cities": 12,
+      "cities": [
+        {
+          "name_en": "Cairo",
+          "name_bn": "Cairo",
+          "slug": "Cairo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Cairo"
+        },
+        {
+          "name_en": "Alexandria",
+          "name_bn": "Alexandria",
+          "slug": "Alexandria",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Alexandria"
+        },
+        {
+          "name_en": "Giza",
+          "name_bn": "Giza",
+          "slug": "Giza",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Giza"
+        },
+        {
+          "name_en": "Sharm El Sheikh",
+          "name_bn": "Sharm El Sheikh",
+          "slug": "Sharm-El-Sheikh",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Sharm-El-Sheikh"
+        },
+        {
+          "name_en": "Luxor",
+          "name_bn": "Luxor",
+          "slug": "Luxor",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Luxor"
+        },
+        {
+          "name_en": "Aswan",
+          "name_bn": "Aswan",
+          "slug": "Aswan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Aswan"
+        },
+        {
+          "name_en": "Hurghada",
+          "name_bn": "Hurghada",
+          "slug": "Hurghada",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Hurghada"
+        },
+        {
+          "name_en": "Mansoura",
+          "name_bn": "Mansoura",
+          "slug": "Mansoura",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Mansoura"
+        },
+        {
+          "name_en": "Tanta",
+          "name_bn": "Tanta",
+          "slug": "Tanta",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Tanta"
+        },
+        {
+          "name_en": "Asyut",
+          "name_bn": "Asyut",
+          "slug": "Asyut",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Asyut"
+        },
+        {
+          "name_en": "Ismailia",
+          "name_bn": "Ismailia",
+          "slug": "Ismailia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Ismailia"
+        },
+        {
+          "name_en": "Fayyum",
+          "name_bn": "Fayyum",
+          "slug": "Fayyum",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EG/prayer-times-Fayyum"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "code": "SV",
+      "flag": "🇸🇻",
+      "name_en": "El Salvador",
+      "name_bn": "এল সালভাদর",
+      "capital": "San Salvador",
+      "timezone": "America/El_Salvador",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "San Salvador",
+          "name_bn": "San Salvador",
+          "slug": "San-Salvador",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SV/prayer-times-San-Salvador"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "code": "GQ",
+      "flag": "🇬🇶",
+      "name_en": "Equatorial Guinea",
+      "name_bn": "নিরক্ষীয় গিনি",
+      "capital": "Malabo",
+      "timezone": "Africa/Malabo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Malabo",
+          "name_bn": "Malabo",
+          "slug": "Malabo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GQ/prayer-times-Malabo"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "code": "ER",
+      "flag": "🇪🇷",
+      "name_en": "Eritrea",
+      "name_bn": "ইরিত্রিয়া",
+      "capital": "Asmara",
+      "timezone": "Africa/Asmara",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Asmara",
+          "name_bn": "Asmara",
+          "slug": "Asmara",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ER/prayer-times-Asmara"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "code": "EE",
+      "flag": "🇪🇪",
+      "name_en": "Estonia",
+      "name_bn": "এস্তোনিয়া",
+      "capital": "Tallinn",
+      "timezone": "Europe/Tallinn",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tallinn",
+          "name_bn": "Tallinn",
+          "slug": "Tallinn",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EE/prayer-times-Tallinn"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "code": "SZ",
+      "flag": "🇸🇿",
+      "name_en": "Eswatini",
+      "name_bn": "ইসওয়াতিনি",
+      "capital": "Mbabane",
+      "timezone": "Africa/Mbabane",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Mbabane",
+          "name_bn": "Mbabane",
+          "slug": "Mbabane",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SZ/prayer-times-Mbabane"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "code": "ET",
+      "flag": "🇪🇹",
+      "name_en": "Ethiopia",
+      "name_bn": "ইথিওপিয়া",
+      "capital": "Addis Ababa",
+      "timezone": "Africa/Addis_Ababa",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Addis Ababa",
+          "name_bn": "Addis Ababa",
+          "slug": "Addis-Ababa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ET/prayer-times-Addis-Ababa"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "code": "FK",
+      "flag": "🇫🇰",
+      "name_en": "Falkland Islands",
+      "name_bn": "ফকল্যান্ড",
+      "capital": "Stanley",
+      "timezone": "Atlantic/Stanley",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Stanley",
+          "name_bn": "Stanley",
+          "slug": "Stanley",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FK/prayer-times-Stanley"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "code": "FO",
+      "flag": "🇫🇴",
+      "name_en": "Faroe Islands",
+      "name_bn": "ফ্যারো দ্বীপপুঞ্জ",
+      "capital": "Torshavn",
+      "timezone": "Atlantic/Faroe",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Torshavn",
+          "name_bn": "Torshavn",
+          "slug": "Torshavn",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FO/prayer-times-Torshavn"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "code": "FJ",
+      "flag": "🇫🇯",
+      "name_en": "Fiji",
+      "name_bn": "ফিজি",
+      "capital": "Suva",
+      "timezone": "Pacific/Fiji",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Suva",
+          "name_bn": "Suva",
+          "slug": "Suva",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FJ/prayer-times-Suva"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "code": "FI",
+      "flag": "🇫🇮",
+      "name_en": "Finland",
+      "name_bn": "ফিনল্যান্ড",
+      "capital": "Helsinki",
+      "timezone": "Europe/Helsinki",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Helsinki",
+          "name_bn": "Helsinki",
+          "slug": "Helsinki",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FI/prayer-times-Helsinki"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "code": "FR",
+      "flag": "🇫🇷",
+      "name_en": "France",
+      "name_bn": "ফ্রান্স",
+      "capital": "Paris",
+      "timezone": "Europe/Paris",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Paris",
+          "name_bn": "Paris",
+          "slug": "Paris",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FR/prayer-times-Paris"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "code": "GF",
+      "flag": "🇬🇫",
+      "name_en": "French Guiana",
+      "name_bn": "ফরাসি গায়ানা",
+      "capital": "Cayenne",
+      "timezone": "America/Cayenne",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Cayenne",
+          "name_bn": "Cayenne",
+          "slug": "Cayenne",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GF/prayer-times-Cayenne"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "code": "PF",
+      "flag": "🇵🇫",
+      "name_en": "French Polynesia",
+      "name_bn": "ফরাসি পলিনেশিয়া",
+      "capital": "Papeete",
+      "timezone": "Pacific/Tahiti",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Papeete",
+          "name_bn": "Papeete",
+          "slug": "Papeete",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PF/prayer-times-Papeete"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "code": "GA",
+      "flag": "🇬🇦",
+      "name_en": "Gabon",
+      "name_bn": "গ্যাবন",
+      "capital": "Libreville",
+      "timezone": "Africa/Libreville",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Libreville",
+          "name_bn": "Libreville",
+          "slug": "Libreville",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GA/prayer-times-Libreville"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "code": "GM",
+      "flag": "🇬🇲",
+      "name_en": "Gambia",
+      "name_bn": "গাম্বিয়া",
+      "capital": "Banjul",
+      "timezone": "Africa/Banjul",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Banjul",
+          "name_bn": "Banjul",
+          "slug": "Banjul",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GM/prayer-times-Banjul"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "code": "GE",
+      "flag": "🇬🇪",
+      "name_en": "Georgia",
+      "name_bn": "জর্জিয়া",
+      "capital": "Tbilisi",
+      "timezone": "Asia/Tbilisi",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tbilisi",
+          "name_bn": "Tbilisi",
+          "slug": "Tbilisi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GE/prayer-times-Tbilisi"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "code": "DE",
+      "flag": "🇩🇪",
+      "name_en": "Germany",
+      "name_bn": "জার্মানি",
+      "capital": "Berlin",
+      "timezone": "Europe/Berlin",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Berlin",
+          "name_bn": "Berlin",
+          "slug": "Berlin",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/DE/prayer-times-Berlin"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "code": "GH",
+      "flag": "🇬🇭",
+      "name_en": "Ghana",
+      "name_bn": "ঘানা",
+      "capital": "Accra",
+      "timezone": "Africa/Accra",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Accra",
+          "name_bn": "Accra",
+          "slug": "Accra",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GH/prayer-times-Accra"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "code": "GI",
+      "flag": "🇬🇮",
+      "name_en": "Gibraltar",
+      "name_bn": "জিব্রাল্টার",
+      "capital": "Gibraltar",
+      "timezone": "Europe/Gibraltar",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Gibraltar",
+          "name_bn": "Gibraltar",
+          "slug": "Gibraltar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GI/prayer-times-Gibraltar"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "code": "GR",
+      "flag": "🇬🇷",
+      "name_en": "Greece",
+      "name_bn": "গ্রীস",
+      "capital": "Athens",
+      "timezone": "Europe/Athens",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Athens",
+          "name_bn": "Athens",
+          "slug": "Athens",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GR/prayer-times-Athens"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "code": "GL",
+      "flag": "🇬🇱",
+      "name_en": "Greenland",
+      "name_bn": "গ্রিনল্যান্ড",
+      "capital": "Nuuk",
+      "timezone": "America/Godthab",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nuuk",
+          "name_bn": "Nuuk",
+          "slug": "Nuuk",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GL/prayer-times-Nuuk"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "code": "GD",
+      "flag": "🇬🇩",
+      "name_en": "Grenada",
+      "name_bn": "গ্রেনাডা",
+      "capital": "St. George's",
+      "timezone": "America/Grenada",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "St. George's",
+          "name_bn": "St. George's",
+          "slug": "St.-George's",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GD/prayer-times-St.-George's"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "code": "GP",
+      "flag": "🇬🇵",
+      "name_en": "Guadeloupe",
+      "name_bn": "গুয়াদেলুপ",
+      "capital": "Basse-Terre",
+      "timezone": "America/Guadeloupe",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Basse-Terre",
+          "name_bn": "Basse-Terre",
+          "slug": "Basse-Terre",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GP/prayer-times-Basse-Terre"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "code": "GU",
+      "flag": "🇬🇺",
+      "name_en": "Guam",
+      "name_bn": "গুয়াম",
+      "capital": "Hagatna",
+      "timezone": "Pacific/Guam",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Hagatna",
+          "name_bn": "Hagatna",
+          "slug": "Hagatna",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GU/prayer-times-Hagatna"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "code": "GT",
+      "flag": "🇬🇹",
+      "name_en": "Guatemala",
+      "name_bn": "গুয়াতেমালা",
+      "capital": "Guatemala City",
+      "timezone": "America/Guatemala",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Guatemala City",
+          "name_bn": "Guatemala City",
+          "slug": "Guatemala-City",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GT/prayer-times-Guatemala-City"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "code": "GN",
+      "flag": "🇬🇳",
+      "name_en": "Guinea",
+      "name_bn": "গিনি",
+      "capital": "Conakry",
+      "timezone": "Africa/Conakry",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Conakry",
+          "name_bn": "Conakry",
+          "slug": "Conakry",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GN/prayer-times-Conakry"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "code": "GW",
+      "flag": "🇬🇼",
+      "name_en": "Guinea-Bissau",
+      "name_bn": "গিনি-বিসাউ",
+      "capital": "Bissau",
+      "timezone": "Africa/Bissau",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bissau",
+          "name_bn": "Bissau",
+          "slug": "Bissau",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GW/prayer-times-Bissau"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "code": "GY",
+      "flag": "🇬🇾",
+      "name_en": "Guyana",
+      "name_bn": "গায়ানা",
+      "capital": "Georgetown",
+      "timezone": "America/Guyana",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Georgetown",
+          "name_bn": "Georgetown",
+          "slug": "Georgetown",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GY/prayer-times-Georgetown"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "code": "HT",
+      "flag": "🇭🇹",
+      "name_en": "Haiti",
+      "name_bn": "হাইতি",
+      "capital": "Port-au-Prince",
+      "timezone": "America/Port-au-Prince",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Port-au-Prince",
+          "name_bn": "Port-au-Prince",
+          "slug": "Port-au-Prince",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/HT/prayer-times-Port-au-Prince"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "code": "HN",
+      "flag": "🇭🇳",
+      "name_en": "Honduras",
+      "name_bn": "হন্ডুরাস",
+      "capital": "Tegucigalpa",
+      "timezone": "America/Tegucigalpa",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tegucigalpa",
+          "name_bn": "Tegucigalpa",
+          "slug": "Tegucigalpa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/HN/prayer-times-Tegucigalpa"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "code": "HK",
+      "flag": "🇭🇰",
+      "name_en": "Hong Kong",
+      "name_bn": "হংকং",
+      "capital": "Hong Kong",
+      "timezone": "Asia/Hong_Kong",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Hong Kong",
+          "name_bn": "Hong Kong",
+          "slug": "Hong-Kong",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/HK/prayer-times-Hong-Kong"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "code": "HU",
+      "flag": "🇭🇺",
+      "name_en": "Hungary",
+      "name_bn": "হাঙ্গেরি",
+      "capital": "Budapest",
+      "timezone": "Europe/Budapest",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Budapest",
+          "name_bn": "Budapest",
+          "slug": "Budapest",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/HU/prayer-times-Budapest"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "code": "IS",
+      "flag": "🇮🇸",
+      "name_en": "Iceland",
+      "name_bn": "আইসল্যান্ড",
+      "capital": "Reykjavik",
+      "timezone": "Atlantic/Reykjavik",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Reykjavik",
+          "name_bn": "Reykjavik",
+          "slug": "Reykjavik",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IS/prayer-times-Reykjavik"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "code": "IN",
+      "flag": "🇮🇳",
+      "name_en": "India",
+      "name_bn": "ভারত",
+      "capital": "New Delhi",
+      "timezone": "Asia/Kolkata",
+      "total_cities": 15,
+      "cities": [
+        {
+          "name_en": "New Delhi",
+          "name_bn": "New Delhi",
+          "slug": "New-Delhi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-New-Delhi"
+        },
+        {
+          "name_en": "Mumbai",
+          "name_bn": "Mumbai",
+          "slug": "Mumbai",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Mumbai"
+        },
+        {
+          "name_en": "Kolkata",
+          "name_bn": "Kolkata",
+          "slug": "Kolkata",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Kolkata"
+        },
+        {
+          "name_en": "Chennai",
+          "name_bn": "Chennai",
+          "slug": "Chennai",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Chennai"
+        },
+        {
+          "name_en": "Bangalore",
+          "name_bn": "Bangalore",
+          "slug": "Bangalore",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Bangalore"
+        },
+        {
+          "name_en": "Hyderabad",
+          "name_bn": "Hyderabad",
+          "slug": "Hyderabad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Hyderabad"
+        },
+        {
+          "name_en": "Ahmedabad",
+          "name_bn": "Ahmedabad",
+          "slug": "Ahmedabad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Ahmedabad"
+        },
+        {
+          "name_en": "Pune",
+          "name_bn": "Pune",
+          "slug": "Pune",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Pune"
+        },
+        {
+          "name_en": "Jaipur",
+          "name_bn": "Jaipur",
+          "slug": "Jaipur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Jaipur"
+        },
+        {
+          "name_en": "Lucknow",
+          "name_bn": "Lucknow",
+          "slug": "Lucknow",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Lucknow"
+        },
+        {
+          "name_en": "Kanpur",
+          "name_bn": "Kanpur",
+          "slug": "Kanpur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Kanpur"
+        },
+        {
+          "name_en": "Nagpur",
+          "name_bn": "Nagpur",
+          "slug": "Nagpur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Nagpur"
+        },
+        {
+          "name_en": "Indore",
+          "name_bn": "Indore",
+          "slug": "Indore",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Indore"
+        },
+        {
+          "name_en": "Bhopal",
+          "name_bn": "Bhopal",
+          "slug": "Bhopal",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Bhopal"
+        },
+        {
+          "name_en": "Patna",
+          "name_bn": "Patna",
+          "slug": "Patna",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IN/prayer-times-Patna"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "code": "ID",
+      "flag": "🇮🇩",
+      "name_en": "Indonesia",
+      "name_bn": "ইন্দোনেশিয়া",
+      "capital": "Jakarta",
+      "timezone": "Asia/Jakarta",
+      "total_cities": 14,
+      "cities": [
+        {
+          "name_en": "Jakarta",
+          "name_bn": "Jakarta",
+          "slug": "Jakarta",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Jakarta"
+        },
+        {
+          "name_en": "Surabaya",
+          "name_bn": "Surabaya",
+          "slug": "Surabaya",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Surabaya"
+        },
+        {
+          "name_en": "Bandung",
+          "name_bn": "Bandung",
+          "slug": "Bandung",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Bandung"
+        },
+        {
+          "name_en": "Medan",
+          "name_bn": "Medan",
+          "slug": "Medan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Medan"
+        },
+        {
+          "name_en": "Semarang",
+          "name_bn": "Semarang",
+          "slug": "Semarang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Semarang"
+        },
+        {
+          "name_en": "Palembang",
+          "name_bn": "Palembang",
+          "slug": "Palembang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Palembang"
+        },
+        {
+          "name_en": "Makassar",
+          "name_bn": "Makassar",
+          "slug": "Makassar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Makassar"
+        },
+        {
+          "name_en": "Batam",
+          "name_bn": "Batam",
+          "slug": "Batam",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Batam"
+        },
+        {
+          "name_en": "Bogor",
+          "name_bn": "Bogor",
+          "slug": "Bogor",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Bogor"
+        },
+        {
+          "name_en": "Pekanbaru",
+          "name_bn": "Pekanbaru",
+          "slug": "Pekanbaru",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Pekanbaru"
+        },
+        {
+          "name_en": "Depok",
+          "name_bn": "Depok",
+          "slug": "Depok",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Depok"
+        },
+        {
+          "name_en": "Malang",
+          "name_bn": "Malang",
+          "slug": "Malang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Malang"
+        },
+        {
+          "name_en": "Padang",
+          "name_bn": "Padang",
+          "slug": "Padang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Padang"
+        },
+        {
+          "name_en": "Denpasar",
+          "name_bn": "Denpasar",
+          "slug": "Denpasar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ID/prayer-times-Denpasar"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "code": "IR",
+      "flag": "🇮🇷",
+      "name_en": "Iran",
+      "name_bn": "ইরান",
+      "capital": "Tehran",
+      "timezone": "Asia/Tehran",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tehran",
+          "name_bn": "Tehran",
+          "slug": "Tehran",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IR/prayer-times-Tehran"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "code": "IQ",
+      "flag": "🇮🇶",
+      "name_en": "Iraq",
+      "name_bn": "ইরাক",
+      "capital": "Baghdad",
+      "timezone": "Asia/Baghdad",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Baghdad",
+          "name_bn": "Baghdad",
+          "slug": "Baghdad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IQ/prayer-times-Baghdad"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "code": "IE",
+      "flag": "🇮🇪",
+      "name_en": "Ireland",
+      "name_bn": "আয়ারল্যান্ড",
+      "capital": "Dublin",
+      "timezone": "Europe/Dublin",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Dublin",
+          "name_bn": "Dublin",
+          "slug": "Dublin",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IE/prayer-times-Dublin"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "code": "IL",
+      "flag": "🇮🇱",
+      "name_en": "Israel",
+      "name_bn": "ইসরায়েল",
+      "capital": "Jerusalem",
+      "timezone": "Asia/Jerusalem",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Jerusalem",
+          "name_bn": "Jerusalem",
+          "slug": "Jerusalem",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IL/prayer-times-Jerusalem"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "code": "IT",
+      "flag": "🇮🇹",
+      "name_en": "Italy",
+      "name_bn": "ইতালি",
+      "capital": "Rome",
+      "timezone": "Europe/Rome",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Rome",
+          "name_bn": "Rome",
+          "slug": "Rome",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/IT/prayer-times-Rome"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "code": "CI",
+      "flag": "🇨🇮",
+      "name_en": "Ivory Coast",
+      "name_bn": "আইভরি কোস্ট",
+      "capital": "Yamoussoukro",
+      "timezone": "Africa/Abidjan",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Yamoussoukro",
+          "name_bn": "Yamoussoukro",
+          "slug": "Yamoussoukro",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CI/prayer-times-Yamoussoukro"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "code": "JM",
+      "flag": "🇯🇲",
+      "name_en": "Jamaica",
+      "name_bn": "জ্যামাইকা",
+      "capital": "Kingston",
+      "timezone": "America/Jamaica",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kingston",
+          "name_bn": "Kingston",
+          "slug": "Kingston",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/JM/prayer-times-Kingston"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "code": "JP",
+      "flag": "🇯🇵",
+      "name_en": "Japan",
+      "name_bn": "জাপান",
+      "capital": "Tokyo",
+      "timezone": "Asia/Tokyo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tokyo",
+          "name_bn": "Tokyo",
+          "slug": "Tokyo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/JP/prayer-times-Tokyo"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "code": "JO",
+      "flag": "🇯🇴",
+      "name_en": "Jordan",
+      "name_bn": "জর্ডান",
+      "capital": "Amman",
+      "timezone": "Asia/Amman",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Amman",
+          "name_bn": "Amman",
+          "slug": "Amman",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/JO/prayer-times-Amman"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "code": "KZ",
+      "flag": "🇰🇿",
+      "name_en": "Kazakhstan",
+      "name_bn": "কাজাখস্তান",
+      "capital": "Astana",
+      "timezone": "Asia/Almaty",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Astana",
+          "name_bn": "Astana",
+          "slug": "Astana",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KZ/prayer-times-Astana"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "code": "KE",
+      "flag": "🇰🇪",
+      "name_en": "Kenya",
+      "name_bn": "কেনিয়া",
+      "capital": "Nairobi",
+      "timezone": "Africa/Nairobi",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nairobi",
+          "name_bn": "Nairobi",
+          "slug": "Nairobi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KE/prayer-times-Nairobi"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "code": "KI",
+      "flag": "🇰🇮",
+      "name_en": "Kiribati",
+      "name_bn": "কিরিবাতি",
+      "capital": "Tarawa",
+      "timezone": "Pacific/Tarawa",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tarawa",
+          "name_bn": "Tarawa",
+          "slug": "Tarawa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KI/prayer-times-Tarawa"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "code": "XK",
+      "flag": "🇽🇰",
+      "name_en": "Kosovo",
+      "name_bn": "কসোভো",
+      "capital": "Pristina",
+      "timezone": "Europe/Belgrade",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Pristina",
+          "name_bn": "Pristina",
+          "slug": "Pristina",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/XK/prayer-times-Pristina"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "code": "KW",
+      "flag": "🇰🇼",
+      "name_en": "Kuwait",
+      "name_bn": "কুয়েত",
+      "capital": "Kuwait City",
+      "timezone": "Asia/Kuwait",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kuwait City",
+          "name_bn": "Kuwait City",
+          "slug": "Kuwait-City",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KW/prayer-times-Kuwait-City"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "code": "KG",
+      "flag": "🇰🇬",
+      "name_en": "Kyrgyzstan",
+      "name_bn": "কিরগিজস্তান",
+      "capital": "Bishkek",
+      "timezone": "Asia/Bishkek",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bishkek",
+          "name_bn": "Bishkek",
+          "slug": "Bishkek",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KG/prayer-times-Bishkek"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "code": "LA",
+      "flag": "🇱🇦",
+      "name_en": "Laos",
+      "name_bn": "লাওস",
+      "capital": "Vientiane",
+      "timezone": "Asia/Vientiane",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Vientiane",
+          "name_bn": "Vientiane",
+          "slug": "Vientiane",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LA/prayer-times-Vientiane"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "code": "LV",
+      "flag": "🇱🇻",
+      "name_en": "Latvia",
+      "name_bn": "লাটভিয়া",
+      "capital": "Riga",
+      "timezone": "Europe/Riga",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Riga",
+          "name_bn": "Riga",
+          "slug": "Riga",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LV/prayer-times-Riga"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "code": "LB",
+      "flag": "🇱🇧",
+      "name_en": "Lebanon",
+      "name_bn": "লেবানন",
+      "capital": "Beirut",
+      "timezone": "Asia/Beirut",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Beirut",
+          "name_bn": "Beirut",
+          "slug": "Beirut",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LB/prayer-times-Beirut"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "code": "LS",
+      "flag": "🇱🇸",
+      "name_en": "Lesotho",
+      "name_bn": "লেসোথো",
+      "capital": "Maseru",
+      "timezone": "Africa/Maseru",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Maseru",
+          "name_bn": "Maseru",
+          "slug": "Maseru",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LS/prayer-times-Maseru"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "code": "LR",
+      "flag": "🇱🇷",
+      "name_en": "Liberia",
+      "name_bn": "লাইবেরিয়া",
+      "capital": "Monrovia",
+      "timezone": "Africa/Monrovia",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Monrovia",
+          "name_bn": "Monrovia",
+          "slug": "Monrovia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LR/prayer-times-Monrovia"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "code": "LY",
+      "flag": "🇱🇾",
+      "name_en": "Libya",
+      "name_bn": "লিবিয়া",
+      "capital": "Tripoli",
+      "timezone": "Africa/Tripoli",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tripoli",
+          "name_bn": "Tripoli",
+          "slug": "Tripoli",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LY/prayer-times-Tripoli"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "code": "LI",
+      "flag": "🇱🇮",
+      "name_en": "Liechtenstein",
+      "name_bn": "লিচেনস্টাইন",
+      "capital": "Vaduz",
+      "timezone": "Europe/Vaduz",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Vaduz",
+          "name_bn": "Vaduz",
+          "slug": "Vaduz",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LI/prayer-times-Vaduz"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "code": "LT",
+      "flag": "🇱🇹",
+      "name_en": "Lithuania",
+      "name_bn": "লিথুয়ানিয়া",
+      "capital": "Vilnius",
+      "timezone": "Europe/Vilnius",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Vilnius",
+          "name_bn": "Vilnius",
+          "slug": "Vilnius",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LT/prayer-times-Vilnius"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "code": "LU",
+      "flag": "🇱🇺",
+      "name_en": "Luxembourg",
+      "name_bn": "লুক্সেমবার্গ",
+      "capital": "Luxembourg",
+      "timezone": "Europe/Luxembourg",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Luxembourg",
+          "name_bn": "Luxembourg",
+          "slug": "Luxembourg",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LU/prayer-times-Luxembourg"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "code": "MO",
+      "flag": "🇲🇴",
+      "name_en": "Macao",
+      "name_bn": "ম্যাকাও",
+      "capital": "Macao",
+      "timezone": "Asia/Macau",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Macao",
+          "name_bn": "Macao",
+          "slug": "Macao",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MO/prayer-times-Macao"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "code": "MG",
+      "flag": "🇲🇬",
+      "name_en": "Madagascar",
+      "name_bn": "মাদাগাস্কার",
+      "capital": "Antananarivo",
+      "timezone": "Indian/Antananarivo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Antananarivo",
+          "name_bn": "Antananarivo",
+          "slug": "Antananarivo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MG/prayer-times-Antananarivo"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "code": "MW",
+      "flag": "🇲🇼",
+      "name_en": "Malawi",
+      "name_bn": "মালাউই",
+      "capital": "Lilongwe",
+      "timezone": "Africa/Blantyre",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Lilongwe",
+          "name_bn": "Lilongwe",
+          "slug": "Lilongwe",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MW/prayer-times-Lilongwe"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "code": "MY",
+      "flag": "🇲🇾",
+      "name_en": "Malaysia",
+      "name_bn": "মালয়েশিয়া",
+      "capital": "Kuala Lumpur",
+      "timezone": "Asia/Kuala_Lumpur",
+      "total_cities": 10,
+      "cities": [
+        {
+          "name_en": "Kuala Lumpur",
+          "name_bn": "Kuala Lumpur",
+          "slug": "Kuala-Lumpur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Kuala-Lumpur"
+        },
+        {
+          "name_en": "George Town",
+          "name_bn": "George Town",
+          "slug": "George-Town",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-George-Town"
+        },
+        {
+          "name_en": "Ipoh",
+          "name_bn": "Ipoh",
+          "slug": "Ipoh",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Ipoh"
+        },
+        {
+          "name_en": "Johor Bahru",
+          "name_bn": "Johor Bahru",
+          "slug": "Johor-Bahru",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Johor-Bahru"
+        },
+        {
+          "name_en": "Shah Alam",
+          "name_bn": "Shah Alam",
+          "slug": "Shah-Alam",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Shah-Alam"
+        },
+        {
+          "name_en": "Kuching",
+          "name_bn": "Kuching",
+          "slug": "Kuching",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Kuching"
+        },
+        {
+          "name_en": "Kota Kinabalu",
+          "name_bn": "Kota Kinabalu",
+          "slug": "Kota-Kinabalu",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Kota-Kinabalu"
+        },
+        {
+          "name_en": "Kuantan",
+          "name_bn": "Kuantan",
+          "slug": "Kuantan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Kuantan"
+        },
+        {
+          "name_en": "Alor Setar",
+          "name_bn": "Alor Setar",
+          "slug": "Alor-Setar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Alor-Setar"
+        },
+        {
+          "name_en": "Klang",
+          "name_bn": "Klang",
+          "slug": "Klang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MY/prayer-times-Klang"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "code": "MV",
+      "flag": "🇲🇻",
+      "name_en": "Maldives",
+      "name_bn": "মালদ্বীপ",
+      "capital": "Male",
+      "timezone": "Indian/Maldives",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Male",
+          "name_bn": "Male",
+          "slug": "Male",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MV/prayer-times-Male"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "code": "ML",
+      "flag": "🇲🇱",
+      "name_en": "Mali",
+      "name_bn": "মালি",
+      "capital": "Bamako",
+      "timezone": "Africa/Bamako",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bamako",
+          "name_bn": "Bamako",
+          "slug": "Bamako",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ML/prayer-times-Bamako"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "code": "MT",
+      "flag": "🇲🇹",
+      "name_en": "Malta",
+      "name_bn": "মাল্টা",
+      "capital": "Valletta",
+      "timezone": "Europe/Malta",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Valletta",
+          "name_bn": "Valletta",
+          "slug": "Valletta",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MT/prayer-times-Valletta"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "code": "MH",
+      "flag": "🇲🇭",
+      "name_en": "Marshall Islands",
+      "name_bn": "মার্শাল",
+      "capital": "Majuro",
+      "timezone": "Pacific/Majuro",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Majuro",
+          "name_bn": "Majuro",
+          "slug": "Majuro",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MH/prayer-times-Majuro"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "code": "MQ",
+      "flag": "🇲🇶",
+      "name_en": "Martinique",
+      "name_bn": "মার্টিনিক",
+      "capital": "Fort-de-France",
+      "timezone": "America/Martinique",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Fort-de-France",
+          "name_bn": "Fort-de-France",
+          "slug": "Fort-de-France",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MQ/prayer-times-Fort-de-France"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "code": "MR",
+      "flag": "🇲🇷",
+      "name_en": "Mauritania",
+      "name_bn": "মৌরিতানিয়া",
+      "capital": "Nouakchott",
+      "timezone": "Africa/Nouakchott",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nouakchott",
+          "name_bn": "Nouakchott",
+          "slug": "Nouakchott",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MR/prayer-times-Nouakchott"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "code": "MU",
+      "flag": "🇲🇺",
+      "name_en": "Mauritius",
+      "name_bn": "মরিশাস",
+      "capital": "Port Louis",
+      "timezone": "Indian/Mauritius",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Port Louis",
+          "name_bn": "Port Louis",
+          "slug": "Port-Louis",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MU/prayer-times-Port-Louis"
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "code": "YT",
+      "flag": "🇾🇹",
+      "name_en": "Mayotte",
+      "name_bn": "মায়োট",
+      "capital": "Mamoudzou",
+      "timezone": "Indian/Mayotte",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Mamoudzou",
+          "name_bn": "Mamoudzou",
+          "slug": "Mamoudzou",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/YT/prayer-times-Mamoudzou"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "code": "MX",
+      "flag": "🇲🇽",
+      "name_en": "Mexico",
+      "name_bn": "মেক্সিকো",
+      "capital": "Mexico City",
+      "timezone": "America/Mexico_City",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Mexico City",
+          "name_bn": "Mexico City",
+          "slug": "Mexico-City",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MX/prayer-times-Mexico-City"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "code": "FM",
+      "flag": "🇫🇲",
+      "name_en": "Micronesia",
+      "name_bn": "মাইক্রোনেশিয়া",
+      "capital": "Palikir",
+      "timezone": "Pacific/Pohnpei",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Palikir",
+          "name_bn": "Palikir",
+          "slug": "Palikir",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/FM/prayer-times-Palikir"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "code": "MD",
+      "flag": "🇲🇩",
+      "name_en": "Moldova",
+      "name_bn": "মলদোভা",
+      "capital": "Chisinau",
+      "timezone": "Europe/Chisinau",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Chisinau",
+          "name_bn": "Chisinau",
+          "slug": "Chisinau",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MD/prayer-times-Chisinau"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "code": "MC",
+      "flag": "🇲🇨",
+      "name_en": "Monaco",
+      "name_bn": "মোনাকো",
+      "capital": "Monaco",
+      "timezone": "Europe/Monaco",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Monaco",
+          "name_bn": "Monaco",
+          "slug": "Monaco",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MC/prayer-times-Monaco"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "code": "MN",
+      "flag": "🇲🇳",
+      "name_en": "Mongolia",
+      "name_bn": "মঙ্গোলিয়া",
+      "capital": "Ulaanbaatar",
+      "timezone": "Asia/Ulaanbaatar",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ulaanbaatar",
+          "name_bn": "Ulaanbaatar",
+          "slug": "Ulaanbaatar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MN/prayer-times-Ulaanbaatar"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "code": "ME",
+      "flag": "🇲🇪",
+      "name_en": "Montenegro",
+      "name_bn": "মন্টিনিগ্রো",
+      "capital": "Podgorica",
+      "timezone": "Europe/Podgorica",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Podgorica",
+          "name_bn": "Podgorica",
+          "slug": "Podgorica",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ME/prayer-times-Podgorica"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "code": "MS",
+      "flag": "🇲🇸",
+      "name_en": "Montserrat",
+      "name_bn": "মন্টসেরাট",
+      "capital": "Brades",
+      "timezone": "America/Montserrat",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Brades",
+          "name_bn": "Brades",
+          "slug": "Brades",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MS/prayer-times-Brades"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "code": "MA",
+      "flag": "🇲🇦",
+      "name_en": "Morocco",
+      "name_bn": "মরক্কো",
+      "capital": "Rabat",
+      "timezone": "Africa/Casablanca",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Rabat",
+          "name_bn": "Rabat",
+          "slug": "Rabat",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MA/prayer-times-Rabat"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "code": "MZ",
+      "flag": "🇲🇿",
+      "name_en": "Mozambique",
+      "name_bn": "মোজাম্বিক",
+      "capital": "Maputo",
+      "timezone": "Africa/Maputo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Maputo",
+          "name_bn": "Maputo",
+          "slug": "Maputo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MZ/prayer-times-Maputo"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "code": "MM",
+      "flag": "🇲🇲",
+      "name_en": "Myanmar",
+      "name_bn": "মায়ানমার",
+      "capital": "Naypyidaw",
+      "timezone": "Asia/Yangon",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Naypyidaw",
+          "name_bn": "Naypyidaw",
+          "slug": "Naypyidaw",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MM/prayer-times-Naypyidaw"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "code": "NA",
+      "flag": "🇳🇦",
+      "name_en": "Namibia",
+      "name_bn": "নামিবিয়া",
+      "capital": "Windhoek",
+      "timezone": "Africa/Windhoek",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Windhoek",
+          "name_bn": "Windhoek",
+          "slug": "Windhoek",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NA/prayer-times-Windhoek"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "code": "NR",
+      "flag": "🇳🇷",
+      "name_en": "Nauru",
+      "name_bn": "নাউরু",
+      "capital": "Yaren",
+      "timezone": "Pacific/Nauru",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Yaren",
+          "name_bn": "Yaren",
+          "slug": "Yaren",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NR/prayer-times-Yaren"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "code": "NP",
+      "flag": "🇳🇵",
+      "name_en": "Nepal",
+      "name_bn": "নেপাল",
+      "capital": "Kathmandu",
+      "timezone": "Asia/Kathmandu",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kathmandu",
+          "name_bn": "Kathmandu",
+          "slug": "Kathmandu",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NP/prayer-times-Kathmandu"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "code": "NL",
+      "flag": "🇳🇱",
+      "name_en": "Netherlands",
+      "name_bn": "নেদারল্যান্ডস",
+      "capital": "Amsterdam",
+      "timezone": "Europe/Amsterdam",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Amsterdam",
+          "name_bn": "Amsterdam",
+          "slug": "Amsterdam",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NL/prayer-times-Amsterdam"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "code": "NC",
+      "flag": "🇳🇨",
+      "name_en": "New Caledonia",
+      "name_bn": "নিউ ক্যালিডোনিয়া",
+      "capital": "Noumea",
+      "timezone": "Pacific/Noumea",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Noumea",
+          "name_bn": "Noumea",
+          "slug": "Noumea",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NC/prayer-times-Noumea"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "code": "NZ",
+      "flag": "🇳🇿",
+      "name_en": "New Zealand",
+      "name_bn": "নিউজিল্যান্ড",
+      "capital": "Wellington",
+      "timezone": "Pacific/Auckland",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Wellington",
+          "name_bn": "Wellington",
+          "slug": "Wellington",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NZ/prayer-times-Wellington"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "code": "NI",
+      "flag": "🇳🇮",
+      "name_en": "Nicaragua",
+      "name_bn": "নিকারাগুয়া",
+      "capital": "Managua",
+      "timezone": "America/Managua",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Managua",
+          "name_bn": "Managua",
+          "slug": "Managua",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NI/prayer-times-Managua"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "code": "NE",
+      "flag": "🇳🇪",
+      "name_en": "Niger",
+      "name_bn": "নাইজার",
+      "capital": "Niamey",
+      "timezone": "Africa/Niamey",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Niamey",
+          "name_bn": "Niamey",
+          "slug": "Niamey",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NE/prayer-times-Niamey"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "code": "NG",
+      "flag": "🇳🇬",
+      "name_en": "Nigeria",
+      "name_bn": "নাইজেরিয়া",
+      "capital": "Abuja",
+      "timezone": "Africa/Lagos",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Abuja",
+          "name_bn": "Abuja",
+          "slug": "Abuja",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NG/prayer-times-Abuja"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "code": "NU",
+      "flag": "🇳🇺",
+      "name_en": "Niue",
+      "name_bn": "নিউয়ে",
+      "capital": "Alofi",
+      "timezone": "Pacific/Niue",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Alofi",
+          "name_bn": "Alofi",
+          "slug": "Alofi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NU/prayer-times-Alofi"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "code": "NF",
+      "flag": "🇳🇫",
+      "name_en": "Norfolk Island",
+      "name_bn": "নরফোক",
+      "capital": "Kingston",
+      "timezone": "Pacific/Norfolk",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kingston",
+          "name_bn": "Kingston",
+          "slug": "Kingston",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NF/prayer-times-Kingston"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "code": "KP",
+      "flag": "🇰🇵",
+      "name_en": "North Korea",
+      "name_bn": "উত্তর কোরিয়া",
+      "capital": "Pyongyang",
+      "timezone": "Asia/Pyongyang",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Pyongyang",
+          "name_bn": "Pyongyang",
+          "slug": "Pyongyang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KP/prayer-times-Pyongyang"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "code": "MK",
+      "flag": "🇲🇰",
+      "name_en": "North Macedonia",
+      "name_bn": "উত্তর মেসিডোনিয়া",
+      "capital": "Skopje",
+      "timezone": "Europe/Skopje",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Skopje",
+          "name_bn": "Skopje",
+          "slug": "Skopje",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MK/prayer-times-Skopje"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "code": "NO",
+      "flag": "🇳🇴",
+      "name_en": "Norway",
+      "name_bn": "নরওয়ে",
+      "capital": "Oslo",
+      "timezone": "Europe/Oslo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Oslo",
+          "name_bn": "Oslo",
+          "slug": "Oslo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/NO/prayer-times-Oslo"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "code": "OM",
+      "flag": "🇴🇲",
+      "name_en": "Oman",
+      "name_bn": "ওমান",
+      "capital": "Muscat",
+      "timezone": "Asia/Muscat",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Muscat",
+          "name_bn": "Muscat",
+          "slug": "Muscat",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/OM/prayer-times-Muscat"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "code": "PK",
+      "flag": "🇵🇰",
+      "name_en": "Pakistan",
+      "name_bn": "পাকিস্তান",
+      "capital": "Islamabad",
+      "timezone": "Asia/Karachi",
+      "total_cities": 14,
+      "cities": [
+        {
+          "name_en": "Karachi",
+          "name_bn": "Karachi",
+          "slug": "Karachi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Karachi"
+        },
+        {
+          "name_en": "Lahore",
+          "name_bn": "Lahore",
+          "slug": "Lahore",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Lahore"
+        },
+        {
+          "name_en": "Islamabad",
+          "name_bn": "Islamabad",
+          "slug": "Islamabad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Islamabad"
+        },
+        {
+          "name_en": "Faisalabad",
+          "name_bn": "Faisalabad",
+          "slug": "Faisalabad",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Faisalabad"
+        },
+        {
+          "name_en": "Rawalpindi",
+          "name_bn": "Rawalpindi",
+          "slug": "Rawalpindi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Rawalpindi"
+        },
+        {
+          "name_en": "Multan",
+          "name_bn": "Multan",
+          "slug": "Multan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Multan"
+        },
+        {
+          "name_en": "Peshawar",
+          "name_bn": "Peshawar",
+          "slug": "Peshawar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Peshawar"
+        },
+        {
+          "name_en": "Quetta",
+          "name_bn": "Quetta",
+          "slug": "Quetta",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Quetta"
+        },
+        {
+          "name_en": "Sialkot",
+          "name_bn": "Sialkot",
+          "slug": "Sialkot",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Sialkot"
+        },
+        {
+          "name_en": "Gujranwala",
+          "name_bn": "Gujranwala",
+          "slug": "Gujranwala",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Gujranwala"
+        },
+        {
+          "name_en": "Sargodha",
+          "name_bn": "Sargodha",
+          "slug": "Sargodha",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Sargodha"
+        },
+        {
+          "name_en": "Bahawalpur",
+          "name_bn": "Bahawalpur",
+          "slug": "Bahawalpur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Bahawalpur"
+        },
+        {
+          "name_en": "Sukkur",
+          "name_bn": "Sukkur",
+          "slug": "Sukkur",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Sukkur"
+        },
+        {
+          "name_en": "Jhang",
+          "name_bn": "Jhang",
+          "slug": "Jhang",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PK/prayer-times-Jhang"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "code": "PW",
+      "flag": "🇵🇼",
+      "name_en": "Palau",
+      "name_bn": "পালাউ",
+      "capital": "Ngerulmud",
+      "timezone": "Pacific/Palau",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ngerulmud",
+          "name_bn": "Ngerulmud",
+          "slug": "Ngerulmud",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PW/prayer-times-Ngerulmud"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "code": "PS",
+      "flag": "🇵🇸",
+      "name_en": "Palestine",
+      "name_bn": "ফিলিস্তিন",
+      "capital": "Ramallah",
+      "timezone": "Asia/Hebron",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ramallah",
+          "name_bn": "Ramallah",
+          "slug": "Ramallah",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PS/prayer-times-Ramallah"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "code": "PA",
+      "flag": "🇵🇦",
+      "name_en": "Panama",
+      "name_bn": "পানামা",
+      "capital": "Panama City",
+      "timezone": "America/Panama",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Panama City",
+          "name_bn": "Panama City",
+          "slug": "Panama-City",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PA/prayer-times-Panama-City"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "code": "PG",
+      "flag": "🇵🇬",
+      "name_en": "Papua New Guinea",
+      "name_bn": "পাপুয়া নিউ গিনি",
+      "capital": "Port Moresby",
+      "timezone": "Pacific/Port_Moresby",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Port Moresby",
+          "name_bn": "Port Moresby",
+          "slug": "Port-Moresby",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PG/prayer-times-Port-Moresby"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "code": "PY",
+      "flag": "🇵🇾",
+      "name_en": "Paraguay",
+      "name_bn": "প্যারাগুয়ে",
+      "capital": "Asuncion",
+      "timezone": "America/Asuncion",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Asuncion",
+          "name_bn": "Asuncion",
+          "slug": "Asuncion",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PY/prayer-times-Asuncion"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "code": "PE",
+      "flag": "🇵🇪",
+      "name_en": "Peru",
+      "name_bn": "পেরু",
+      "capital": "Lima",
+      "timezone": "America/Lima",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Lima",
+          "name_bn": "Lima",
+          "slug": "Lima",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PE/prayer-times-Lima"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "code": "PH",
+      "flag": "🇵🇭",
+      "name_en": "Philippines",
+      "name_bn": "ফিলিপাইন",
+      "capital": "Manila",
+      "timezone": "Asia/Manila",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Manila",
+          "name_bn": "Manila",
+          "slug": "Manila",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PH/prayer-times-Manila"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "code": "PL",
+      "flag": "🇵🇱",
+      "name_en": "Poland",
+      "name_bn": "পোল্যান্ড",
+      "capital": "Warsaw",
+      "timezone": "Europe/Warsaw",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Warsaw",
+          "name_bn": "Warsaw",
+          "slug": "Warsaw",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PL/prayer-times-Warsaw"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "code": "PT",
+      "flag": "🇵🇹",
+      "name_en": "Portugal",
+      "name_bn": "পর্তুগাল",
+      "capital": "Lisbon",
+      "timezone": "Europe/Lisbon",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Lisbon",
+          "name_bn": "Lisbon",
+          "slug": "Lisbon",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PT/prayer-times-Lisbon"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "code": "PR",
+      "flag": "🇵🇷",
+      "name_en": "Puerto Rico",
+      "name_bn": "পুয়ের্তো রিকো",
+      "capital": "San Juan",
+      "timezone": "America/Puerto_Rico",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "San Juan",
+          "name_bn": "San Juan",
+          "slug": "San-Juan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PR/prayer-times-San-Juan"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "code": "QA",
+      "flag": "🇶🇦",
+      "name_en": "Qatar",
+      "name_bn": "কাতার",
+      "capital": "Doha",
+      "timezone": "Asia/Qatar",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Doha",
+          "name_bn": "Doha",
+          "slug": "Doha",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/QA/prayer-times-Doha"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "code": "RE",
+      "flag": "🇷🇪",
+      "name_en": "Reunion",
+      "name_bn": "রিইউনিয়ন",
+      "capital": "Saint-Denis",
+      "timezone": "Indian/Reunion",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Saint-Denis",
+          "name_bn": "Saint-Denis",
+          "slug": "Saint-Denis",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/RE/prayer-times-Saint-Denis"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "code": "RO",
+      "flag": "🇷🇴",
+      "name_en": "Romania",
+      "name_bn": "রোমানিয়া",
+      "capital": "Bucharest",
+      "timezone": "Europe/Bucharest",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bucharest",
+          "name_bn": "Bucharest",
+          "slug": "Bucharest",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/RO/prayer-times-Bucharest"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "code": "RU",
+      "flag": "🇷🇺",
+      "name_en": "Russia",
+      "name_bn": "রাশিয়া",
+      "capital": "Moscow",
+      "timezone": "Europe/Moscow",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Moscow",
+          "name_bn": "Moscow",
+          "slug": "Moscow",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/RU/prayer-times-Moscow"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "code": "RW",
+      "flag": "🇷🇼",
+      "name_en": "Rwanda",
+      "name_bn": "রুয়ান্ডা",
+      "capital": "Kigali",
+      "timezone": "Africa/Kigali",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kigali",
+          "name_bn": "Kigali",
+          "slug": "Kigali",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/RW/prayer-times-Kigali"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "code": "BL",
+      "flag": "🇧🇱",
+      "name_en": "Saint Barthelemy",
+      "name_bn": "সেন্ট বার্থেলেমি",
+      "capital": "Gustavia",
+      "timezone": "America/St_Barthelemy",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Gustavia",
+          "name_bn": "Gustavia",
+          "slug": "Gustavia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/BL/prayer-times-Gustavia"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "code": "KN",
+      "flag": "🇰🇳",
+      "name_en": "Saint Kitts and Nevis",
+      "name_bn": "সেন্ট কিটস",
+      "capital": "Basseterre",
+      "timezone": "America/St_Kitts",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Basseterre",
+          "name_bn": "Basseterre",
+          "slug": "Basseterre",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KN/prayer-times-Basseterre"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "code": "LC",
+      "flag": "🇱🇨",
+      "name_en": "Saint Lucia",
+      "name_bn": "সেন্ট লুসিয়া",
+      "capital": "Castries",
+      "timezone": "America/St_Lucia",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Castries",
+          "name_bn": "Castries",
+          "slug": "Castries",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LC/prayer-times-Castries"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "code": "MF",
+      "flag": "🇲🇫",
+      "name_en": "Saint Martin",
+      "name_bn": "সেন্ট মার্টিন",
+      "capital": "Marigot",
+      "timezone": "America/Marigot",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Marigot",
+          "name_bn": "Marigot",
+          "slug": "Marigot",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/MF/prayer-times-Marigot"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "code": "PM",
+      "flag": "🇵🇲",
+      "name_en": "Saint Pierre and Miquelon",
+      "name_bn": "সেন্ট পিয়ের",
+      "capital": "Saint-Pierre",
+      "timezone": "America/Miquelon",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Saint-Pierre",
+          "name_bn": "Saint-Pierre",
+          "slug": "Saint-Pierre",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/PM/prayer-times-Saint-Pierre"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "code": "VC",
+      "flag": "🇻🇨",
+      "name_en": "Saint Vincent",
+      "name_bn": "সেন্ট ভিনসেন্ট",
+      "capital": "Kingstown",
+      "timezone": "America/St_Vincent",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kingstown",
+          "name_bn": "Kingstown",
+          "slug": "Kingstown",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VC/prayer-times-Kingstown"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "code": "WS",
+      "flag": "🇼🇸",
+      "name_en": "Samoa",
+      "name_bn": "সামোয়া",
+      "capital": "Apia",
+      "timezone": "Pacific/Apia",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Apia",
+          "name_bn": "Apia",
+          "slug": "Apia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/WS/prayer-times-Apia"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "code": "SM",
+      "flag": "🇸🇲",
+      "name_en": "San Marino",
+      "name_bn": "সান মারিনো",
+      "capital": "San Marino",
+      "timezone": "Europe/San_Marino",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "San Marino",
+          "name_bn": "San Marino",
+          "slug": "San-Marino",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SM/prayer-times-San-Marino"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "code": "ST",
+      "flag": "🇸🇹",
+      "name_en": "Sao Tome and Principe",
+      "name_bn": "সাও টোমে",
+      "capital": "Sao Tome",
+      "timezone": "Africa/Sao_Tome",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Sao Tome",
+          "name_bn": "Sao Tome",
+          "slug": "Sao-Tome",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ST/prayer-times-Sao-Tome"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "code": "SA",
+      "flag": "🇸🇦",
+      "name_en": "Saudi Arabia",
+      "name_bn": "সৌদি আরব",
+      "capital": "Riyadh",
+      "timezone": "Asia/Riyadh",
+      "total_cities": 14,
+      "cities": [
+        {
+          "name_en": "Makkah",
+          "name_bn": "Makkah",
+          "slug": "Makkah",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Makkah"
+        },
+        {
+          "name_en": "Madinah",
+          "name_bn": "Madinah",
+          "slug": "Madinah",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Madinah"
+        },
+        {
+          "name_en": "Riyadh",
+          "name_bn": "Riyadh",
+          "slug": "Riyadh",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Riyadh"
+        },
+        {
+          "name_en": "Jeddah",
+          "name_bn": "Jeddah",
+          "slug": "Jeddah",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Jeddah"
+        },
+        {
+          "name_en": "Dammam",
+          "name_bn": "Dammam",
+          "slug": "Dammam",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Dammam"
+        },
+        {
+          "name_en": "Taif",
+          "name_bn": "Taif",
+          "slug": "Taif",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Taif"
+        },
+        {
+          "name_en": "Tabuk",
+          "name_bn": "Tabuk",
+          "slug": "Tabuk",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Tabuk"
+        },
+        {
+          "name_en": "Abha",
+          "name_bn": "Abha",
+          "slug": "Abha",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Abha"
+        },
+        {
+          "name_en": "Khobar",
+          "name_bn": "Khobar",
+          "slug": "Khobar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Khobar"
+        },
+        {
+          "name_en": "Jizan",
+          "name_bn": "Jizan",
+          "slug": "Jizan",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Jizan"
+        },
+        {
+          "name_en": "Buraidah",
+          "name_bn": "Buraidah",
+          "slug": "Buraidah",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Buraidah"
+        },
+        {
+          "name_en": "Najran",
+          "name_bn": "Najran",
+          "slug": "Najran",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Najran"
+        },
+        {
+          "name_en": "Yanbu",
+          "name_bn": "Yanbu",
+          "slug": "Yanbu",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Yanbu"
+        },
+        {
+          "name_en": "Al Khobar",
+          "name_bn": "Al Khobar",
+          "slug": "Al-Khobar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SA/prayer-times-Al-Khobar"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "code": "SN",
+      "flag": "🇸🇳",
+      "name_en": "Senegal",
+      "name_bn": "সেনেগাল",
+      "capital": "Dakar",
+      "timezone": "Africa/Dakar",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Dakar",
+          "name_bn": "Dakar",
+          "slug": "Dakar",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SN/prayer-times-Dakar"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "code": "RS",
+      "flag": "🇷🇸",
+      "name_en": "Serbia",
+      "name_bn": "সার্বিয়া",
+      "capital": "Belgrade",
+      "timezone": "Europe/Belgrade",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Belgrade",
+          "name_bn": "Belgrade",
+          "slug": "Belgrade",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/RS/prayer-times-Belgrade"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "code": "SC",
+      "flag": "🇸🇨",
+      "name_en": "Seychelles",
+      "name_bn": "সেশেলস",
+      "capital": "Victoria",
+      "timezone": "Indian/Mahe",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Victoria",
+          "name_bn": "Victoria",
+          "slug": "Victoria",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SC/prayer-times-Victoria"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "code": "SL",
+      "flag": "🇸🇱",
+      "name_en": "Sierra Leone",
+      "name_bn": "সিয়েরা লিওন",
+      "capital": "Freetown",
+      "timezone": "Africa/Freetown",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Freetown",
+          "name_bn": "Freetown",
+          "slug": "Freetown",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SL/prayer-times-Freetown"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "code": "SG",
+      "flag": "🇸🇬",
+      "name_en": "Singapore",
+      "name_bn": "সিঙ্গাপুর",
+      "capital": "Singapore",
+      "timezone": "Asia/Singapore",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Singapore",
+          "name_bn": "Singapore",
+          "slug": "Singapore",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SG/prayer-times-Singapore"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "code": "SX",
+      "flag": "🇸🇽",
+      "name_en": "Sint Maarten",
+      "name_bn": "সিন্ট মার্টেন",
+      "capital": "Philipsburg",
+      "timezone": "America/Lower_Princes",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Philipsburg",
+          "name_bn": "Philipsburg",
+          "slug": "Philipsburg",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SX/prayer-times-Philipsburg"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "code": "SK",
+      "flag": "🇸🇰",
+      "name_en": "Slovakia",
+      "name_bn": "স্লোভাকিয়া",
+      "capital": "Bratislava",
+      "timezone": "Europe/Bratislava",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bratislava",
+          "name_bn": "Bratislava",
+          "slug": "Bratislava",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SK/prayer-times-Bratislava"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "code": "SI",
+      "flag": "🇸🇮",
+      "name_en": "Slovenia",
+      "name_bn": "স্লোভেনিয়া",
+      "capital": "Ljubljana",
+      "timezone": "Europe/Ljubljana",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ljubljana",
+          "name_bn": "Ljubljana",
+          "slug": "Ljubljana",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SI/prayer-times-Ljubljana"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "code": "SB",
+      "flag": "🇸🇧",
+      "name_en": "Solomon Islands",
+      "name_bn": "সলোমন",
+      "capital": "Honiara",
+      "timezone": "Pacific/Guadalcanal",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Honiara",
+          "name_bn": "Honiara",
+          "slug": "Honiara",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SB/prayer-times-Honiara"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "code": "SO",
+      "flag": "🇸🇴",
+      "name_en": "Somalia",
+      "name_bn": "সোমালিয়া",
+      "capital": "Mogadishu",
+      "timezone": "Africa/Mogadishu",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Mogadishu",
+          "name_bn": "Mogadishu",
+          "slug": "Mogadishu",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SO/prayer-times-Mogadishu"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "code": "ZA",
+      "flag": "🇿🇦",
+      "name_en": "South Africa",
+      "name_bn": "দক্ষিণ আফ্রিকা",
+      "capital": "Pretoria",
+      "timezone": "Africa/Johannesburg",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Pretoria",
+          "name_bn": "Pretoria",
+          "slug": "Pretoria",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ZA/prayer-times-Pretoria"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "code": "KR",
+      "flag": "🇰🇷",
+      "name_en": "South Korea",
+      "name_bn": "দক্ষিণ কোরিয়া",
+      "capital": "Seoul",
+      "timezone": "Asia/Seoul",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Seoul",
+          "name_bn": "Seoul",
+          "slug": "Seoul",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/KR/prayer-times-Seoul"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "code": "SS",
+      "flag": "🇸🇸",
+      "name_en": "South Sudan",
+      "name_bn": "দক্ষিণ সুদান",
+      "capital": "Juba",
+      "timezone": "Africa/Juba",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Juba",
+          "name_bn": "Juba",
+          "slug": "Juba",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SS/prayer-times-Juba"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "code": "ES",
+      "flag": "🇪🇸",
+      "name_en": "Spain",
+      "name_bn": "স্পেন",
+      "capital": "Madrid",
+      "timezone": "Europe/Madrid",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Madrid",
+          "name_bn": "Madrid",
+          "slug": "Madrid",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ES/prayer-times-Madrid"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "code": "LK",
+      "flag": "🇱🇰",
+      "name_en": "Sri Lanka",
+      "name_bn": "শ্রীলঙ্কা",
+      "capital": "Colombo",
+      "timezone": "Asia/Colombo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Colombo",
+          "name_bn": "Colombo",
+          "slug": "Colombo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/LK/prayer-times-Colombo"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "code": "SD",
+      "flag": "🇸🇩",
+      "name_en": "Sudan",
+      "name_bn": "সুদান",
+      "capital": "Khartoum",
+      "timezone": "Africa/Khartoum",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Khartoum",
+          "name_bn": "Khartoum",
+          "slug": "Khartoum",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SD/prayer-times-Khartoum"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "code": "SR",
+      "flag": "🇸🇷",
+      "name_en": "Suriname",
+      "name_bn": "সুরিনাম",
+      "capital": "Paramaribo",
+      "timezone": "America/Paramaribo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Paramaribo",
+          "name_bn": "Paramaribo",
+          "slug": "Paramaribo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SR/prayer-times-Paramaribo"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "code": "SJ",
+      "flag": "🇸🇯",
+      "name_en": "Svalbard and Jan Mayen",
+      "name_bn": "স্বালবার্ড",
+      "capital": "Longyearbyen",
+      "timezone": "Arctic/Longyearbyen",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Longyearbyen",
+          "name_bn": "Longyearbyen",
+          "slug": "Longyearbyen",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SJ/prayer-times-Longyearbyen"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "code": "SE",
+      "flag": "🇸🇪",
+      "name_en": "Sweden",
+      "name_bn": "সুইডেন",
+      "capital": "Stockholm",
+      "timezone": "Europe/Stockholm",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Stockholm",
+          "name_bn": "Stockholm",
+          "slug": "Stockholm",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SE/prayer-times-Stockholm"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "code": "CH",
+      "flag": "🇨🇭",
+      "name_en": "Switzerland",
+      "name_bn": "সুইজারল্যান্ড",
+      "capital": "Bern",
+      "timezone": "Europe/Zurich",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bern",
+          "name_bn": "Bern",
+          "slug": "Bern",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/CH/prayer-times-Bern"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "code": "SY",
+      "flag": "🇸🇾",
+      "name_en": "Syria",
+      "name_bn": "সিরিয়া",
+      "capital": "Damascus",
+      "timezone": "Asia/Damascus",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Damascus",
+          "name_bn": "Damascus",
+          "slug": "Damascus",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/SY/prayer-times-Damascus"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "code": "TW",
+      "flag": "🇹🇼",
+      "name_en": "Taiwan",
+      "name_bn": "তাইওয়ান",
+      "capital": "Taipei",
+      "timezone": "Asia/Taipei",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Taipei",
+          "name_bn": "Taipei",
+          "slug": "Taipei",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TW/prayer-times-Taipei"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "code": "TJ",
+      "flag": "🇹🇯",
+      "name_en": "Tajikistan",
+      "name_bn": "তাজিকিস্তান",
+      "capital": "Dushanbe",
+      "timezone": "Asia/Dushanbe",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Dushanbe",
+          "name_bn": "Dushanbe",
+          "slug": "Dushanbe",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TJ/prayer-times-Dushanbe"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "code": "TZ",
+      "flag": "🇹🇿",
+      "name_en": "Tanzania",
+      "name_bn": "তানজানিয়া",
+      "capital": "Dodoma",
+      "timezone": "Africa/Dar_es_Salaam",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Dodoma",
+          "name_bn": "Dodoma",
+          "slug": "Dodoma",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TZ/prayer-times-Dodoma"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "code": "TH",
+      "flag": "🇹🇭",
+      "name_en": "Thailand",
+      "name_bn": "থাইল্যান্ড",
+      "capital": "Bangkok",
+      "timezone": "Asia/Bangkok",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Bangkok",
+          "name_bn": "Bangkok",
+          "slug": "Bangkok",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TH/prayer-times-Bangkok"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "code": "TL",
+      "flag": "🇹🇱",
+      "name_en": "Timor-Leste",
+      "name_bn": "তিমুর",
+      "capital": "Dili",
+      "timezone": "Asia/Dili",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Dili",
+          "name_bn": "Dili",
+          "slug": "Dili",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TL/prayer-times-Dili"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "code": "TG",
+      "flag": "🇹🇬",
+      "name_en": "Togo",
+      "name_bn": "টোগো",
+      "capital": "Lome",
+      "timezone": "Africa/Lome",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Lome",
+          "name_bn": "Lome",
+          "slug": "Lome",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TG/prayer-times-Lome"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "code": "TO",
+      "flag": "🇹🇴",
+      "name_en": "Tonga",
+      "name_bn": "টোঙ্গা",
+      "capital": "Nukualofa",
+      "timezone": "Pacific/Tongatapu",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Nukualofa",
+          "name_bn": "Nukualofa",
+          "slug": "Nukualofa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TO/prayer-times-Nukualofa"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "code": "TT",
+      "flag": "🇹🇹",
+      "name_en": "Trinidad and Tobago",
+      "name_bn": "ত্রিনিদাদ",
+      "capital": "Port of Spain",
+      "timezone": "America/Port_of_Spain",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Port of Spain",
+          "name_bn": "Port of Spain",
+          "slug": "Port-of-Spain",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TT/prayer-times-Port-of-Spain"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "code": "TN",
+      "flag": "🇹🇳",
+      "name_en": "Tunisia",
+      "name_bn": "তিউনিসিয়া",
+      "capital": "Tunis",
+      "timezone": "Africa/Tunis",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tunis",
+          "name_bn": "Tunis",
+          "slug": "Tunis",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TN/prayer-times-Tunis"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "code": "TR",
+      "flag": "🇹🇷",
+      "name_en": "Turkey",
+      "name_bn": "তুরস্ক",
+      "capital": "Ankara",
+      "timezone": "Europe/Istanbul",
+      "total_cities": 13,
+      "cities": [
+        {
+          "name_en": "Istanbul",
+          "name_bn": "Istanbul",
+          "slug": "Istanbul",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Istanbul"
+        },
+        {
+          "name_en": "Ankara",
+          "name_bn": "Ankara",
+          "slug": "Ankara",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Ankara"
+        },
+        {
+          "name_en": "Izmir",
+          "name_bn": "Izmir",
+          "slug": "Izmir",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Izmir"
+        },
+        {
+          "name_en": "Bursa",
+          "name_bn": "Bursa",
+          "slug": "Bursa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Bursa"
+        },
+        {
+          "name_en": "Antalya",
+          "name_bn": "Antalya",
+          "slug": "Antalya",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Antalya"
+        },
+        {
+          "name_en": "Adana",
+          "name_bn": "Adana",
+          "slug": "Adana",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Adana"
+        },
+        {
+          "name_en": "Konya",
+          "name_bn": "Konya",
+          "slug": "Konya",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Konya"
+        },
+        {
+          "name_en": "Gaziantep",
+          "name_bn": "Gaziantep",
+          "slug": "Gaziantep",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Gaziantep"
+        },
+        {
+          "name_en": "Mersin",
+          "name_bn": "Mersin",
+          "slug": "Mersin",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Mersin"
+        },
+        {
+          "name_en": "Kayseri",
+          "name_bn": "Kayseri",
+          "slug": "Kayseri",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Kayseri"
+        },
+        {
+          "name_en": "Eskisehir",
+          "name_bn": "Eskisehir",
+          "slug": "Eskisehir",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Eskisehir"
+        },
+        {
+          "name_en": "Diyarbakir",
+          "name_bn": "Diyarbakir",
+          "slug": "Diyarbakir",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Diyarbakir"
+        },
+        {
+          "name_en": "Sanliurfa",
+          "name_bn": "Sanliurfa",
+          "slug": "Sanliurfa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TR/prayer-times-Sanliurfa"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "code": "TM",
+      "flag": "🇹🇲",
+      "name_en": "Turkmenistan",
+      "name_bn": "তুর্কমেনিস্তান",
+      "capital": "Ashgabat",
+      "timezone": "Asia/Ashgabat",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Ashgabat",
+          "name_bn": "Ashgabat",
+          "slug": "Ashgabat",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TM/prayer-times-Ashgabat"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "code": "TC",
+      "flag": "🇹🇨",
+      "name_en": "Turks and Caicos",
+      "name_bn": "টার্কস ও কাইকোস",
+      "capital": "Cockburn Town",
+      "timezone": "America/Grand_Turk",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Cockburn Town",
+          "name_bn": "Cockburn Town",
+          "slug": "Cockburn-Town",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TC/prayer-times-Cockburn-Town"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "code": "TV",
+      "flag": "🇹🇻",
+      "name_en": "Tuvalu",
+      "name_bn": "টুভালু",
+      "capital": "Funafuti",
+      "timezone": "Pacific/Funafuti",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Funafuti",
+          "name_bn": "Funafuti",
+          "slug": "Funafuti",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/TV/prayer-times-Funafuti"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "code": "VI",
+      "flag": "🇻🇮",
+      "name_en": "US Virgin Islands",
+      "name_bn": "ইউএস ভার্জিন",
+      "capital": "Charlotte Amalie",
+      "timezone": "America/St_Thomas",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Charlotte Amalie",
+          "name_bn": "Charlotte Amalie",
+          "slug": "Charlotte-Amalie",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VI/prayer-times-Charlotte-Amalie"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "code": "UG",
+      "flag": "🇺🇬",
+      "name_en": "Uganda",
+      "name_bn": "উগান্ডা",
+      "capital": "Kampala",
+      "timezone": "Africa/Kampala",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kampala",
+          "name_bn": "Kampala",
+          "slug": "Kampala",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/UG/prayer-times-Kampala"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "code": "UA",
+      "flag": "🇺🇦",
+      "name_en": "Ukraine",
+      "name_bn": "ইউক্রেন",
+      "capital": "Kyiv",
+      "timezone": "Europe/Kyiv",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Kyiv",
+          "name_bn": "Kyiv",
+          "slug": "Kyiv",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/UA/prayer-times-Kyiv"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "code": "AE",
+      "flag": "🇦🇪",
+      "name_en": "United Arab Emirates",
+      "name_bn": "আরব আমিরাত",
+      "capital": "Abu Dhabi",
+      "timezone": "Asia/Dubai",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Abu Dhabi",
+          "name_bn": "Abu Dhabi",
+          "slug": "Abu-Dhabi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/AE/prayer-times-Abu-Dhabi"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "code": "GB",
+      "flag": "🇬🇧",
+      "name_en": "United Kingdom",
+      "name_bn": "যুক্তরাজ্য",
+      "capital": "London",
+      "timezone": "Europe/London",
+      "total_cities": 15,
+      "cities": [
+        {
+          "name_en": "London",
+          "name_bn": "London",
+          "slug": "London",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-London"
+        },
+        {
+          "name_en": "Birmingham",
+          "name_bn": "Birmingham",
+          "slug": "Birmingham",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Birmingham"
+        },
+        {
+          "name_en": "Manchester",
+          "name_bn": "Manchester",
+          "slug": "Manchester",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Manchester"
+        },
+        {
+          "name_en": "Leeds",
+          "name_bn": "Leeds",
+          "slug": "Leeds",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Leeds"
+        },
+        {
+          "name_en": "Glasgow",
+          "name_bn": "Glasgow",
+          "slug": "Glasgow",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Glasgow"
+        },
+        {
+          "name_en": "Liverpool",
+          "name_bn": "Liverpool",
+          "slug": "Liverpool",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Liverpool"
+        },
+        {
+          "name_en": "Bristol",
+          "name_bn": "Bristol",
+          "slug": "Bristol",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Bristol"
+        },
+        {
+          "name_en": "Sheffield",
+          "name_bn": "Sheffield",
+          "slug": "Sheffield",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Sheffield"
+        },
+        {
+          "name_en": "Edinburgh",
+          "name_bn": "Edinburgh",
+          "slug": "Edinburgh",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Edinburgh"
+        },
+        {
+          "name_en": "Leicester",
+          "name_bn": "Leicester",
+          "slug": "Leicester",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Leicester"
+        },
+        {
+          "name_en": "Bradford",
+          "name_bn": "Bradford",
+          "slug": "Bradford",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Bradford"
+        },
+        {
+          "name_en": "Cardiff",
+          "name_bn": "Cardiff",
+          "slug": "Cardiff",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Cardiff"
+        },
+        {
+          "name_en": "Coventry",
+          "name_bn": "Coventry",
+          "slug": "Coventry",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Coventry"
+        },
+        {
+          "name_en": "Nottingham",
+          "name_bn": "Nottingham",
+          "slug": "Nottingham",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Nottingham"
+        },
+        {
+          "name_en": "Belfast",
+          "name_bn": "Belfast",
+          "slug": "Belfast",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/GB/prayer-times-Belfast"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "code": "US",
+      "flag": "🇺🇸",
+      "name_en": "United States",
+      "name_bn": "যুক্তরাষ্ট্র",
+      "capital": "Washington",
+      "timezone": "America/New_York",
+      "total_cities": 15,
+      "cities": [
+        {
+          "name_en": "New York",
+          "name_bn": "New York",
+          "slug": "New-York",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-New-York"
+        },
+        {
+          "name_en": "Los Angeles",
+          "name_bn": "Los Angeles",
+          "slug": "Los-Angeles",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Los-Angeles"
+        },
+        {
+          "name_en": "Chicago",
+          "name_bn": "Chicago",
+          "slug": "Chicago",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Chicago"
+        },
+        {
+          "name_en": "Houston",
+          "name_bn": "Houston",
+          "slug": "Houston",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Houston"
+        },
+        {
+          "name_en": "Phoenix",
+          "name_bn": "Phoenix",
+          "slug": "Phoenix",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Phoenix"
+        },
+        {
+          "name_en": "Philadelphia",
+          "name_bn": "Philadelphia",
+          "slug": "Philadelphia",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Philadelphia"
+        },
+        {
+          "name_en": "San Antonio",
+          "name_bn": "San Antonio",
+          "slug": "San-Antonio",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-San-Antonio"
+        },
+        {
+          "name_en": "San Diego",
+          "name_bn": "San Diego",
+          "slug": "San-Diego",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-San-Diego"
+        },
+        {
+          "name_en": "Dallas",
+          "name_bn": "Dallas",
+          "slug": "Dallas",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Dallas"
+        },
+        {
+          "name_en": "San Jose",
+          "name_bn": "San Jose",
+          "slug": "San-Jose",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-San-Jose"
+        },
+        {
+          "name_en": "Austin",
+          "name_bn": "Austin",
+          "slug": "Austin",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Austin"
+        },
+        {
+          "name_en": "Jacksonville",
+          "name_bn": "Jacksonville",
+          "slug": "Jacksonville",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Jacksonville"
+        },
+        {
+          "name_en": "Fort Worth",
+          "name_bn": "Fort Worth",
+          "slug": "Fort-Worth",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Fort-Worth"
+        },
+        {
+          "name_en": "Columbus",
+          "name_bn": "Columbus",
+          "slug": "Columbus",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-Columbus"
+        },
+        {
+          "name_en": "San Francisco",
+          "name_bn": "San Francisco",
+          "slug": "San-Francisco",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/US/prayer-times-San-Francisco"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "code": "UY",
+      "flag": "🇺🇾",
+      "name_en": "Uruguay",
+      "name_bn": "উরুগুয়ে",
+      "capital": "Montevideo",
+      "timezone": "America/Montevideo",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Montevideo",
+          "name_bn": "Montevideo",
+          "slug": "Montevideo",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/UY/prayer-times-Montevideo"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "code": "UZ",
+      "flag": "🇺🇿",
+      "name_en": "Uzbekistan",
+      "name_bn": "উজবেকিস্তান",
+      "capital": "Tashkent",
+      "timezone": "Asia/Tashkent",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Tashkent",
+          "name_bn": "Tashkent",
+          "slug": "Tashkent",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/UZ/prayer-times-Tashkent"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "code": "VU",
+      "flag": "🇻🇺",
+      "name_en": "Vanuatu",
+      "name_bn": "ভানুয়াতু",
+      "capital": "Port Vila",
+      "timezone": "Pacific/Efate",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Port Vila",
+          "name_bn": "Port Vila",
+          "slug": "Port-Vila",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VU/prayer-times-Port-Vila"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "code": "VA",
+      "flag": "🇻🇦",
+      "name_en": "Vatican City",
+      "name_bn": "ভ্যাটিকান",
+      "capital": "Vatican City",
+      "timezone": "Europe/Vatican",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Vatican City",
+          "name_bn": "Vatican City",
+          "slug": "Vatican-City",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VA/prayer-times-Vatican-City"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "code": "VE",
+      "flag": "🇻🇪",
+      "name_en": "Venezuela",
+      "name_bn": "ভেনেজুয়েলা",
+      "capital": "Caracas",
+      "timezone": "America/Caracas",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Caracas",
+          "name_bn": "Caracas",
+          "slug": "Caracas",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VE/prayer-times-Caracas"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "code": "VN",
+      "flag": "🇻🇳",
+      "name_en": "Vietnam",
+      "name_bn": "ভিয়েতনাম",
+      "capital": "Hanoi",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Hanoi",
+          "name_bn": "Hanoi",
+          "slug": "Hanoi",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/VN/prayer-times-Hanoi"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "code": "EH",
+      "flag": "🇪🇭",
+      "name_en": "Western Sahara",
+      "name_bn": "পশ্চিম সাহারা",
+      "capital": "El Aaiun",
+      "timezone": "Africa/El_Aaiun",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "El Aaiun",
+          "name_bn": "El Aaiun",
+          "slug": "El-Aaiun",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/EH/prayer-times-El-Aaiun"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "code": "YE",
+      "flag": "🇾🇪",
+      "name_en": "Yemen",
+      "name_bn": "ইয়েমেন",
+      "capital": "Sanaa",
+      "timezone": "Asia/Aden",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Sanaa",
+          "name_bn": "Sanaa",
+          "slug": "Sanaa",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/YE/prayer-times-Sanaa"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "code": "ZM",
+      "flag": "🇿🇲",
+      "name_en": "Zambia",
+      "name_bn": "জাম্বিয়া",
+      "capital": "Lusaka",
+      "timezone": "Africa/Lusaka",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Lusaka",
+          "name_bn": "Lusaka",
+          "slug": "Lusaka",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ZM/prayer-times-Lusaka"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "code": "ZW",
+      "flag": "🇿🇼",
+      "name_en": "Zimbabwe",
+      "name_bn": "জিম্বাবুয়ে",
+      "capital": "Harare",
+      "timezone": "Africa/Harare",
+      "total_cities": 1,
+      "cities": [
+        {
+          "name_en": "Harare",
+          "name_bn": "Harare",
+          "slug": "Harare",
+          "type": "city",
+          "url": "https://muslimbangla.com/world/ZW/prayer-times-Harare"
+        }
+      ]
+    }
+  ]
+    }
