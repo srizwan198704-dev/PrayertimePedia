@@ -7,7 +7,7 @@ CITIES_FILE = "BangladeshCities.json"
 OUTPUT_DIR = "BD"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 BN_TO_EN = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
-MAX_WORKERS = 20 # একসাথে 15 টা শহর scrape করবে
+MAX_WORKERS = 20 # একসাথে 20 টা শহর scrape করবে
 
 def to_en(s): return s.translate(BN_TO_EN) if s else ""
 def clean(s): return re.sub(r"\s+", " ", s).strip() if s else ""
@@ -38,12 +38,32 @@ def build_section(soup, section_keyword, expected_labels):
             if not label or len(label) > 25: continue
             matched = next((exp for exp in expected_labels if exp in label), None)
             if not matched: continue
+
+            key_map = {
+                "ফজর":"fajr",
+                "যুহর":"dhuhr",
+                "জুমা":"dhuhr", # শুক্রবারের জন্য
+                "আসর":"asr",
+                "মাগরিব":"maghrib",
+                "ইশা":"isha",
+                "সূর্যোদয়":"sunrise",
+                "দুপুর":"noon",
+                "সূর্যাস্ত":"sunset",
+                "তাহাজ্জুদ":"tahajjud",
+                "ইশরাক":"ishraq",
+                "চাশত":"chasht",
+                "সাহরী":"sehri_end"
+            }
+            key = key_map.get(matched, matched)
+
+            # একই key (যেমন dhuhr) আগে থাকলে skip - যুহর থাকলে জুমা overwrite করবে না
+            if key in result:
+                continue
+
             bn_time = get_time_from_parent(sib)
-            if bn_time and not any(v.get('label_bn') == matched for v in result.values()):
+            if bn_time:
                 en_time = to_en(bn_time)
                 start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
-                key_map = {"ফজর":"fajr","যুহর":"dhuhr","আসর":"asr","মাগরিব":"maghrib","ইশা":"isha","সূর্যোদয়":"sunrise","দুপুর":"noon","সূর্যাস্ত":"sunset","তাহাজ্জুদ":"tahajjud","ইশরাক":"ishraq","চাশত":"chasht","সাহরী":"sehri_end"}
-                key = key_map.get(matched, matched)
                 result[key] = {"label_bn": matched, "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
     return result
 
@@ -59,7 +79,19 @@ def scrape_city(city):
             hijri_bn = clean(m.group(1)); bengali_bn = clean(m.group(2))
             full_bn = f"{hijri_bn} • {bengali_bn}"
 
-        prayer = build_section(soup, "ওয়াক্তের সময়সূচী", ["ফজর","যুহর","আসর","মাগরিব","ইশা"])
+        # শুক্রবারের জন্য জুমা সহ
+        prayer = build_section(soup, "ওয়াক্তের সময়সূচী", ["ফজর","যুহর","জুমা","আসর","মাগরিব","ইশা"])
+
+        # Extra fallback: section এর ভিতর না পেলে পুরো পেজে জুমা খোঁজো
+        if "dhuhr" not in prayer:
+            juma_tag = soup.find(lambda t: t.name in ["h3","h4"] and "জুমা" in t.get_text())
+            if juma_tag:
+                bn_time = get_time_from_parent(juma_tag)
+                if bn_time:
+                    en_time = to_en(bn_time)
+                    start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
+                    prayer["dhuhr"] = {"label_bn": "জুমা", "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
+
         if not prayer: return None
 
         forbidden = build_section(soup, "নামাজের নিষিদ্ধ সময়সূচী", ["সূর্যোদয়","দুপুর","সূর্যাস্ত"])
@@ -71,7 +103,7 @@ def scrape_city(city):
         filepath = os.path.join(OUTPUT_DIR, f"{safe_name}.json")
         with open(filepath, "w", encoding="utf-8") as out:
             json.dump(final, out, ensure_ascii=False, indent=2)
-        print(f"✅ {city['name_en']}")
+        print(f"✅ {city['name_en']} - {prayer.get('dhuhr', {}).get('time_bn', 'no dhuhr/juma')}")
         return filepath
     except Exception as e:
         print(f"❌ {city['name_en']}: {e}")
