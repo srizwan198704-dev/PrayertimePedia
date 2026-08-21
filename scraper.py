@@ -48,18 +48,50 @@ def build_section(section_keyword, expected_labels):
             if not label or len(label) > 25: continue
             matched = next((exp for exp in expected_labels if exp in label), None)
             if not matched: continue
+
+            # Key map with Juma -> dhuhr fallback
+            key_map = {
+                "ফজর":"fajr",
+                "যুহর":"dhuhr",
+                "জুমা":"dhuhr", # <-- শুক্রবারের জন্য
+                "আসর":"asr",
+                "মাগরিব":"maghrib",
+                "ইশা":"isha",
+                "সূর্যোদয়":"sunrise",
+                "দুপুর":"noon",
+                "সূর্যাস্ত":"sunset",
+                "তাহাজ্জুদ":"tahajjud",
+                "ইশরাক":"ishraq",
+                "চাশত":"chasht",
+                "সাহরী":"sehri_end"
+            }
+            key = key_map.get(matched, matched)
+
+            # যদি একই key (dhuhr) আগেই থাকে তাহলে skip, যাতে যুহর থাকলে জুমা overwrite না করে
+            if key in result:
+                continue
+
             bn_time = get_time_from_parent(sib)
-            if bn_time and matched not in [v['label_bn'] for v in result.values()]:
+            if bn_time:
                 en_time = to_en(bn_time)
                 start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
-                key_map = {"ফজর":"fajr","যুহর":"dhuhr","আসর":"asr","মাগরিব":"maghrib","ইশা":"isha",
-                           "সূর্যোদয়":"sunrise","দুপুর":"noon","সূর্যাস্ত":"sunset",
-                           "তাহাজ্জুদ":"tahajjud","ইশরাক":"ishraq","চাশত":"chasht","সাহরী":"sehri_end"}
-                key = key_map.get(matched, matched)
                 result[key] = {"label_bn": matched, "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
     return result
 
-prayer = build_section("ওয়াক্তের সময়সূচী", ["ফজর","যুহর","আসর","মাগরিব","ইশা"])
+# এখানে "জুমা" যোগ করা হলো
+prayer = build_section("ওয়াক্তের সময়সূচী", ["ফজর","যুহর","জুমা","আসর","মাগরিব","ইশা"])
+
+# Extra safety: যদি build_section কোনো কারণে dhuhr না পায়, পুরো পেজে আবার জুমা খুঁজবে (শুক্রবারের জন্য)
+if "dhuhr" not in prayer:
+    juma_tag = soup.find(lambda t: t.name in ["h3","h4"] and "জুমা" in t.get_text())
+    if juma_tag:
+        bn_time = get_time_from_parent(juma_tag)
+        if bn_time:
+            en_time = to_en(bn_time)
+            start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
+            prayer["dhuhr"] = {"label_bn": "জুমা", "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
+            print(f"ℹ️ শুক্রবার: যুহর পাওয়া যায়নি, জুমা ব্যবহার করা হলো -> {bn_time}")
+
 forbidden = build_section("নামাজের নিষিদ্ধ সময়সূচী", ["সূর্যোদয়","দুপুর","সূর্যাস্ত"])
 nafl = build_section("নফল নামাজের সময়সূচী", ["তাহাজ্জুদ","ইশরাক","চাশত","সাহরী"])
 
@@ -88,6 +120,7 @@ with open("data/dhaka.json", "w", encoding="utf-8") as f:
     json.dump(final, f, ensure_ascii=False, indent=2)
 
 print(f"✅ Saved: {final[0]['hijridate']}")
+print(f"📿 Prayer: {prayer}")
 
 # ===== AUTO GIT PUSH + JSDELIVR PURGE =====
 def git_push():
@@ -98,7 +131,7 @@ def git_push():
         print("✅ GitHub push done")
         return True
     except Exception as e:
-        print(f"⚠️ Git push failed (maybe no changes): {e}")
+        print(f"⚠ Git push failed (maybe no changes): {e}")
         return False
 
 def purge_jsdelivr():
@@ -112,12 +145,11 @@ def purge_jsdelivr():
             print(f"🚀 Purge: {url} -> {r.status_code} {r.text[:100]}")
         except Exception as e:
             print(f"Purge failed: {e}")
-    time.sleep(2) # 2 sec wait for cdn refresh
+    time.sleep(2)
 
 if git_push():
     purge_jsdelivr()
     print("\n🔥 DONE! এখন এই লিংকে সাথে সাথে নতুন ডাটা পাবে:")
     print("https://cdn.jsdelivr.net/gh/srizwan198704-dev/PrayertimePedia@main/data/dhaka.json")
 else:
-    # যদি git এ কোনো change না থাকে, তাও purge করে দাও
     purge_jsdelivr()
