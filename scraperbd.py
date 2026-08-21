@@ -7,18 +7,20 @@ CITIES_FILE = "BangladeshCities.json"
 OUTPUT_DIR = "BD"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 BN_TO_EN = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
-MAX_WORKERS = 20 # একসাথে 20 টা শহর scrape করবে
+MAX_WORKERS = 20
 
 def to_en(s): return s.translate(BN_TO_EN) if s else ""
 def clean(s): return re.sub(r"\s+", " ", s).strip() if s else ""
 
 def get_time_from_parent(tag):
     try:
+        # 1. parent এর ভিতর খোঁজো
         parent_text = tag.parent.get_text(" ", strip=True) if tag.parent else ""
         mt = re.search(r"[০-৯]{1,2}:[০-৯]{2}(?:\s*-\s*[০-৯]{1,2}:[০-৯]{2})?", parent_text)
         if mt: return clean(mt.group(0))
+        # 2. পরের 6 টা element এ খোঁজো
         nxt = tag.find_next()
-        for _ in range(4):
+        for _ in range(6):
             if not nxt: break
             txt = nxt.get_text(" ", strip=True) if hasattr(nxt, 'get_text') else str(nxt)
             mt = re.search(r"[০-৯]{1,2}:[০-৯]{2}(?:\s*-\s*[০-৯]{1,2}:[০-৯]{2})?", txt)
@@ -34,29 +36,44 @@ def build_section(soup, section_keyword, expected_labels):
     for sib in h2.find_all_next():
         if sib.name == "h2": break
         if sib.name in ["h3","h4"]:
-            label = clean(sib.get_text())
-            if not label or len(label) > 25: continue
-            matched = next((exp for exp in expected_labels if exp in label), None)
+            label_raw = clean(sib.get_text())
+            if not label_raw or len(label_raw) > 30: continue
+
+            # Fuzzy match - জুম থাকলেই জুমা ধরা হবে
+            matched = None
+            for exp in expected_labels:
+                if exp in label_raw:
+                    matched = exp
+                    break
+                # শুক্রবারের স্পেশাল: জুম'আ, জুম্মা, জুমা সব এক
+                if exp == "জুমা" and "জুম" in label_raw:
+                    matched = exp
+                    break
+
             if not matched: continue
 
-            key_map = {
-                "ফজর":"fajr",
-                "যুহর":"dhuhr",
-                "জুমা":"dhuhr", # শুক্রবারের জন্য
-                "আসর":"asr",
-                "মাগরিব":"maghrib",
-                "ইশা":"isha",
-                "সূর্যোদয়":"sunrise",
-                "দুপুর":"noon",
-                "সূর্যাস্ত":"sunset",
-                "তাহাজ্জুদ":"tahajjud",
-                "ইশরাক":"ishraq",
-                "চাশত":"chasht",
-                "সাহরী":"sehri_end"
-            }
-            key = key_map.get(matched, matched)
+            # key mapping - জুম দিয়ে শুরু হলেই dhuhr
+            if "জুম" in label_raw or matched == "জুমা":
+                key = "dhuhr"
+                label_for_save = "জুমা"
+            else:
+                key_map = {
+                    "ফজর":"fajr",
+                    "যুহর":"dhuhr",
+                    "আসর":"asr",
+                    "মাগরিব":"maghrib",
+                    "ইশা":"isha",
+                    "সূর্যোদয়":"sunrise",
+                    "দুপুর":"noon",
+                    "সূর্যাস্ত":"sunset",
+                    "তাহাজ্জুদ":"tahajjud",
+                    "ইশরাক":"ishraq",
+                    "চাশত":"chasht",
+                    "সাহরী":"sehri_end"
+                }
+                key = key_map.get(matched, matched)
+                label_for_save = matched
 
-            # একই key (যেমন dhuhr) আগে থাকলে skip - যুহর থাকলে জুমা overwrite করবে না
             if key in result:
                 continue
 
@@ -64,7 +81,7 @@ def build_section(soup, section_keyword, expected_labels):
             if bn_time:
                 en_time = to_en(bn_time)
                 start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
-                result[key] = {"label_bn": matched, "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
+                result[key] = {"label_bn": label_for_save, "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
     return result
 
 def scrape_city(city):
@@ -79,18 +96,22 @@ def scrape_city(city):
             hijri_bn = clean(m.group(1)); bengali_bn = clean(m.group(2))
             full_bn = f"{hijri_bn} • {bengali_bn}"
 
-        # শুক্রবারের জন্য জুমা সহ
         prayer = build_section(soup, "ওয়াক্তের সময়সূচী", ["ফজর","যুহর","জুমা","আসর","মাগরিব","ইশা"])
 
-        # Extra fallback: section এর ভিতর না পেলে পুরো পেজে জুমা খোঁজো
+        # Final fallback - যদি এখনো dhuhr না থাকে, পুরো পেজে জুম শব্দ খোঁজো
         if "dhuhr" not in prayer:
-            juma_tag = soup.find(lambda t: t.name in ["h3","h4"] and "জুমা" in t.get_text())
+            # সব h3/h4 প্রিন্ট করে দেখো ডিবাগের জন্য
+            # print(f"DEBUG {city['name_en']} labels: {[clean(t.get_text()) for t in soup.find_all(['h3','h4'])]}")
+            juma_tag = soup.find(lambda t: t.name in ["h3","h4"] and "জুম" in t.get_text())
             if juma_tag:
                 bn_time = get_time_from_parent(juma_tag)
                 if bn_time:
                     en_time = to_en(bn_time)
                     start, end = (en_time.split("-")[0].strip(), en_time.split("-")[1].strip()) if "-" in en_time else (en_time, "")
                     prayer["dhuhr"] = {"label_bn": "জুমা", "time_bn": bn_time, "time_en": en_time, "start": start, "end": end}
+                    print(f"🔄 {city['name_en']}: Fallback জুমা পাওয়া গেছে -> {bn_time}")
+            else:
+                print(f"⚠️ {city['name_en']}: যুহর/জুমা কোনোটাই পাওয়া যায়নি!")
 
         if not prayer: return None
 
@@ -103,7 +124,8 @@ def scrape_city(city):
         filepath = os.path.join(OUTPUT_DIR, f"{safe_name}.json")
         with open(filepath, "w", encoding="utf-8") as out:
             json.dump(final, out, ensure_ascii=False, indent=2)
-        print(f"✅ {city['name_en']} - {prayer.get('dhuhr', {}).get('time_bn', 'no dhuhr/juma')}")
+        dhuhr_info = prayer.get('dhuhr', {})
+        print(f"✅ {city['name_en']} - {dhuhr_info.get('label_bn','?')}: {dhuhr_info.get('time_bn','no time')}")
         return filepath
     except Exception as e:
         print(f"❌ {city['name_en']}: {e}")
@@ -130,7 +152,6 @@ def main():
 
     if saved_files:
         subprocess.run(["git", "add", OUTPUT_DIR], check=True)
-        # check if anything to commit
         if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode!= 0:
             subprocess.run(["git", "commit", "-m", f"update all BD prayer times {datetime.now().strftime('%Y-%m-%d %H:%M')}"], check=True)
             subprocess.run(["git", "push"], check=True)
