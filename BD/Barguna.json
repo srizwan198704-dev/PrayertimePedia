@@ -12,7 +12,7 @@
         "timezone": "Asia/Dhaka"
       },
       "source_url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%AC%E0%A6%B0%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A6%BE",
-      "scraped_at": "2026-08-21T03:24:55.536444"
+      "scraped_at": "2026-08-21T03:41:55.273481"
     },
     "date": {
       "full": {
@@ -35,6 +35,13 @@
         "time_en": "04:21 - 05:38",
         "start": "04:21",
         "end": "05:38"
+      },
+      "dhuhr": {
+        "label_bn": "জুমা",
+        "time_bn": "১২:০৪ - ০৪:৩৪",
+        "time_en": "12:04 - 04:34",
+        "start": "12:04",
+        "end": "04:34"
       },
       "asr": {
         "label_bn": "আসর",
