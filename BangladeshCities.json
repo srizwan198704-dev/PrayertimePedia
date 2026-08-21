@@ -1168,14 +1168,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 147,
-    "name_en": "Netrokona",
-    "name_bn": "নেত্রকোণা",
-    "slug": "নেত্রকোণা",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8B%E0%A6%A3%E0%A6%BE",
-    "division": "Bangladesh"
-  },
-  {
     "id": 148,
     "name_en": "Melandah",
     "name_bn": "মেলান্দহ",
@@ -2472,14 +2464,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 310,
-    "name_en": "শরিয়তপুর",
-    "name_bn": "শরিয়তপুর",
-    "slug": "শরিয়তপুর",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%B6%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%A4%E0%A6%AA%E0%A7%81%E0%A6%B0",
-    "division": "Bangladesh"
-  },
-  {
     "id": 311,
     "name_en": "Naria",
     "name_bn": "নড়িয়া",
@@ -2525,14 +2509,6 @@
     "name_bn": "আড়াইহাজার",
     "slug": "আড়াইহাজার",
     "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%86%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%87%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0",
-    "division": "Bangladesh"
-  },
-  {
-    "id": 317,
-    "name_en": "Narayanganj",
-    "name_bn": "নারায়নগঞ্জ",
-    "slug": "নারায়নগঞ্জ",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A6%A8%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C",
     "division": "Bangladesh"
   },
   {
@@ -2816,14 +2792,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 353,
-    "name_en": "জয়পুরহাট",
-    "name_bn": "জয়পুরহাট",
-    "slug": "জয়পুরহাট",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%9C%E0%A7%9F%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B9%E0%A6%BE%E0%A6%9F",
-    "division": "Bangladesh"
-  },
-  {
     "id": 354,
     "name_en": "Singra",
     "name_bn": "সিংড়া",
@@ -2933,14 +2901,6 @@
     "name_bn": "কাহালু",
     "slug": "কাহালু",
     "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%95%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%81",
-    "division": "Bangladesh"
-  },
-  {
-    "id": 368,
-    "name_en": "বগুড়া",
-    "name_bn": "বগুড়া",
-    "slug": "বগুড়া",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%AC%E0%A6%97%E0%A7%81%E0%A7%9C%E0%A6%BE",
     "division": "Bangladesh"
   },
   {
@@ -3488,14 +3448,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 437,
-    "name_en": "পটুয়াখালী",
-    "name_bn": "পটুয়াখালী",
-    "slug": "পটুয়াখালী",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%AA%E0%A6%9F%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%80",
-    "division": "Bangladesh"
-  },
-  {
     "id": 438,
     "name_en": "Dumki",
     "name_bn": "দুমকি",
@@ -3632,14 +3584,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 455,
-    "name_en": "কচুয়া",
-    "name_bn": "কচুয়া",
-    "slug": "কচুয়া",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%95%E0%A6%9A%E0%A7%81%E0%A7%9F%E0%A6%BE",
-    "division": "Bangladesh"
-  },
-  {
     "id": 456,
     "name_en": "Mongla",
     "name_bn": "মোংলা",
@@ -3744,14 +3688,6 @@
     "division": "Bangladesh"
   },
   {
-    "id": 469,
-    "name_en": "কুষ্টিয়া",
-    "name_bn": "কুষ্টিয়া",
-    "slug": "কুষ্টিয়া",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%95%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A6%BE",
-    "division": "Bangladesh"
-  },
-  {
     "id": 470,
     "name_en": "Kumarkhali",
     "name_bn": "কুমারখালী",
@@ -3805,14 +3741,6 @@
     "name_bn": "জীবননগর",
     "slug": "জীবননগর",
     "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A6%A8%E0%A6%97%E0%A6%B0",
-    "division": "Bangladesh"
-  },
-  {
-    "id": 477,
-    "name_en": "নড়াইল",
-    "name_bn": "নড়াইল",
-    "slug": "নড়াইল",
-    "url": "https://muslimbangla.com/world/BD/prayer-times-%E0%A6%A8%E0%A7%9C%E0%A6%BE%E0%A6%87%E0%A6%B2",
     "division": "Bangladesh"
   },
   {
