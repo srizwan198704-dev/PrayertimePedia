@@ -10,7 +10,7 @@
         "timezone": "Asia/Dhaka"
       },
       "source_url": "https://muslimbangla.com/world/BD/prayer-times-Narayanganj",
-      "scraped_at": "2026-10-27T01:50:04.721152"
+      "scraped_at": "2026-10-27T07:08:01.085578"
     },
     "date": {
       "full": {
@@ -34,6 +34,13 @@
         "start": "04:45",
         "end": "06:00"
       },
+      "dhuhr": {
+        "label_bn": "যুহর",
+        "time_bn": "১১:৪৩ - ০৩:৪৫",
+        "time_en": "11:43 - 03:45",
+        "start": "11:43",
+        "end": "03:45"
+      },
       "asr": {
         "label_bn": "আসর",
         "time_bn": "০৩:৪৬ - ০৫:২৩",
@@ -47,13 +54,6 @@
         "time_en": "05:24 - 06:38",
         "start": "05:24",
         "end": "06:38"
-      },
-      "isha": {
-        "label_bn": "ইশা",
-        "time_bn": "০৬:৩৯ - ০৪:৪৪",
-        "time_en": "06:39 - 04:44",
-        "start": "06:39",
-        "end": "04:44"
       }
     },
     "forbidden_times": {
